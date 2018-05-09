@@ -1,0 +1,14 @@
+// Countries.
+http://api.worldbank.org/en/countries?per_page=500&format=xml
+
+// Income levels.
+http://api.worldbank.org/en/incomeLevels?per_page=500&format=xml
+
+// Indicators.
+http://api.worldbank.org/en/indicators?per_page=500&format=xml
+
+// Lending types.
+http://api.worldbank.org/en/lendingTypes?per_page=500&format=xml
+
+// Topics.
+http://api.worldbank.org/en/topics?per_page=500&format=xml

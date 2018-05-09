@@ -1,0 +1,50 @@
+_key,_from,_to,predicate,rank,init,enable,access,usage,interface,level,order,terms.0,fields.0,label.ISO:639:3:eng,definition.ISO:639:3:eng,description.ISO:639:3:eng,note.ISO:639:3:eng,example.ISO:639:3:eng,domain,instance,category,keyword.0,keyword.1,info,schema,branch
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,terms/:form:admin,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,descriptors/name,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,descriptors/password,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,descriptors/email,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,descriptors/language,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,,,,,,,,,,,,,,,,,,terms/:form:admin
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signup
+XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signup
+XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signup
+XXX,terms/:form:signup,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signup
+XXX,descriptors/username,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,1,,,User code,User authentication code.,"Provide the username code; if omitted, it will be automatically set with the user’s e-mail.",Fill this field if you want the user to have a username different from the e-mail.,,,,,,,,,terms/:form:signup
+XXX,descriptors/email,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,,,User e-mail,User e-mail address.,"Provide the user e-mail address, <em>the field is required</em>.",The e-mail field is used by default as the unique username.,,,,,,,,,terms/:form:signup
+XXX,descriptors/name,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,3,,,User name,User full name.,Provide the <em>user full name</em>.,"You may omit the name, since this information will be provided to the user before the record will be validated.",,,,,,,,,terms/:form:signup
+XXX,descriptors/group,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:optional,:state:interface:field:in,,4,,,User group,Group to which the user belongs.,Select the group to which the user will belong.,"When you select a group, if the roles are not yet set, they will be filled with the default roles of the group.",,,,,,,,,terms/:form:signup
+XXX,descriptors/language,terms/:form:signup,terms/:predicate:field-of,,,,,,:state:interface:field:in,,5,,,User language,Preferred language of the user.,Set the language in which labels will be displayed for the user.,,,,,,,,,,terms/:form:signup
+XXX,descriptors/rank,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:optional,:state:interface:field:in,,6,,,User rank,User rank or main function.,Select the user rank.,The rank represents the <em>main category of the user</em>.,,,,,,,,,terms/:form:signup
+XXX,descriptors/role,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,7,,,User roles,The roles or functions the user may perform.,Select the user roles.,User roles represent the <em>functions</em> that the user is allowed to <em>perform</em>.,,,,,,,,,terms/:form:signup
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signin
+XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signin
+XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signin
+XXX,terms/:form:signin,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/username,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,1,,,Code,The authentication code.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/password,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,,,Password,The authentication password.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/passcheck,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,3,,,Repeat your password,Repeat the password,Repeat the password to confirm it.,,,,,,,,,,terms/:form:signin
+XXX,descriptors/email,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,4,,,Your e-mail address,Provide your e-mail address.,This will be used as your username when you log in.,,,,,,,,,,terms/:form:signin
+XXX,descriptors/language,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,5,,,Preferred language,Select your preferred language.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/rank,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,6,,,Rank,The rank to which you belong.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/role,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,7,,,Role,The functions and operations you are allowed to perform.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/manager,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,8,,,Manager,The user that manages your credentials.,,,,,,,,,,,terms/:form:signin
+XXX,descriptors/group,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,9,,,Group,The users group to which you belong.,,,,,,,,,,,terms/:form:signin
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:login
+XXX,terms/:kind:form:mixed,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:login
+XXX,terms/:type:form:full,terms/:kind:form:mixed,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:login
+XXX,terms/:form:login,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:login
+XXX,descriptors/username,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,1,,,User code,User code or e-mail.,,,,,,,,,,,terms/:form:login
+XXX,descriptors/password,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,,,Password,,,,,,,,,,,,terms/:form:login
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
+XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
+XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
+XXX,terms/:form:groupin,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/nid,terms/:form:groupin,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,1,,,Department,Provide a namespace for the group code.,This value is used to allow the same group type to belong to several departments.,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/lid,terms/:form:groupin,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,2,,,Code,"Provide a unique code, within the same department, to the group.",This value is used to uniquely identify a group within a department.,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/label,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,3,,,Name,Provide the group name or label.,This value will be used as a label or header when displaying groups.,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/definition,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,4,,,Functions,Provide the group function and scope.,This value will be visible in popup areas.,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/description,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,5,,,Description,Provide any other relevant information not included in the previous two fields.,,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/role,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,6,,,User roles,Provide the default user roles for the current group.,Group user roles provide a template when creating new users.,,,,,,,,,,terms/:form:groupin
+XXX,descriptors/note,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:optional,:state:interface:field:in,,7,,,Notes,You can use this field to add notes.,,,,,,,,,,,terms/:form:groupin

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bootstrap4</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote-bs4.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote-bs4.js"></script>
+</head>
+<body>
+<div class="container">
+	<h1>My test</h1>
+	<div class="container">
+		<div id="pippo"></div>
+	</div>
+</div>
+<script>
+/*
+	You can compose a toolbar with pre-shipped buttons.
+
+	Insert
+		picture: open image dialog
+		link: open link dialog
+		video: open video dialog
+		table: insert a table
+		hr: insert a horizontal rule
+	Font Style
+		fontname: set font family
+		fontsize: set font size
+		color: set foreground and background color
+		bold: toggle font weight
+		italic: toggle italic
+		underline: toggle underline
+		strikethrough: toggle strikethrough
+		superscript: toggle superscript
+		subscript: toggle subscript
+		clear: clear font style
+	Paragraph style
+		style: format selected block
+		ol: toggle ordered list
+		ul: toggle unordered list
+		paragraph: dropdown for paragraph align
+		height: set line height
+	Misc
+		fullscreen: toggle fullscreen editing mode
+		codeview: toggle wysiwyg and html editing mode
+		undo: undo
+		redo: redo
+		help: open help dialog
+
+	Air-mode has its own popover, not toolbar. You can customize it with popover.air option.
+*/
+	$('#pippo').summernote({
+		placeholder: 'Hello bootstrap 4',
+		tabsize: 2,
+		height: 100,
+		toolbar: [
+			// [groupName, [list of button]]
+			['insert', ['hr', 'picture']],
+			['style', ['fontname', 'bold', 'italic', 'underline', 'clear']],
+			['font', ['strikethrough', 'superscript', 'subscript']],
+			['fontsize', ['fontsize']],
+			['color', ['color']],
+			['para', ['ul', 'ol', 'paragraph']],
+			['height', ['height']]
+		]
+	});
+</script>
+</body>

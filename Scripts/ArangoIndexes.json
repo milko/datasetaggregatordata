@@ -1,0 +1,826 @@
+[
+    {"terms": {
+        "indexes": [
+            {
+                "deduplicate": false,
+                "fields": ["lid"],
+                "id": "451057",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["nid"],
+                "id": "451067",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["gid"],
+                "id": "451090",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["names[*]"],
+                "id": "451199",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["deploy"],
+                "id": "451295",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["synonym[*]"],
+                "id": "451751",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["const"],
+                "id": "451962",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": true
+            }
+        ],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "451022",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/451022",
+            "id": "451022",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["lid"],
+                    "id": "451057",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["nid"],
+                    "id": "451067",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["gid"],
+                    "id": "451090",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["names[*]"],
+                    "id": "451199",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["deploy"],
+                    "id": "451295",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["synonym[*]"],
+                    "id": "451751",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["const"],
+                    "id": "451962",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": true
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "terms",
+            "numberOfShards": 1,
+            "planId": "451022",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 2,
+            "version": 6,
+            "waitForSync": false
+        }
+    }},
+    {"descriptors": {
+        "indexes": [
+            {
+                "deduplicate": false,
+                "fields": ["lid"],
+                "id": "451432",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["nid"],
+                "id": "451465",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["gid"],
+                "id": "451576",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["names[*]"],
+                "id": "451618",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["deploy"],
+                "id": "451641",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["synonym[*]"],
+                "id": "451721",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "skiplist",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["const"],
+                "id": "452052",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["symbol"],
+                "id": "452070",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["kind"],
+                "id": "452093",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["type"],
+                "id": "452106",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["enum[*]"],
+                "id": "452129",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            }
+        ],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "451410",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/451410",
+            "id": "451410",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["lid"],
+                    "id": "451432",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["nid"],
+                    "id": "451465",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["gid"],
+                    "id": "451576",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["names[*]"],
+                    "id": "451618",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["deploy"],
+                    "id": "451641",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["synonym[*]"],
+                    "id": "451721",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "skiplist",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["const"],
+                    "id": "452052",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["symbol"],
+                    "id": "452070",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["kind"],
+                    "id": "452093",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["type"],
+                    "id": "452106",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["enum[*]"],
+                    "id": "452129",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "descriptors",
+            "numberOfShards": 1,
+            "planId": "451410",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 2,
+            "version": 6,
+            "waitForSync": false
+        }
+    }},
+    {"shapes": {
+        "indexes": [{
+            "deduplicate": false,
+            "fields": ["shape.type"],
+            "id": "452790",
+            "selectivityEstimate": 1,
+            "sparse": false,
+            "type": "hash",
+            "unique": false
+        }],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "452731",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/452731",
+            "id": "452731",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["shape.type"],
+                    "id": "452790",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "shapes",
+            "numberOfShards": 1,
+            "planId": "452731",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 2,
+            "version": 6,
+            "waitForSync": false
+        }
+    }},
+    {"toponyms": {
+        "indexes": [
+            {
+                "deduplicate": false,
+                "fields": ["GN_id"],
+                "id": "452545",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["GEOnet_id"],
+                "id": "452562",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": true
+            },
+            {
+                "deduplicate": false,
+                "fields": ["STD_region"],
+                "id": "452586",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["STD_country"],
+                "id": "452599",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["STD_geo_class"],
+                "id": "452617",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["STD_geo_type"],
+                "id": "452630",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "constraint": false,
+                "fields": ["STD_geo_DEG"],
+                "geoJson": true,
+                "id": "452648",
+                "ignoreNull": true,
+                "sparse": true,
+                "type": "geo1",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["names[*]"],
+                "id": "452697",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "skiplist",
+                "unique": false
+            }
+        ],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "452311",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/452311",
+            "id": "452311",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["GN_id"],
+                    "id": "452545",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["GEOnet_id"],
+                    "id": "452562",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": true
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["STD_region"],
+                    "id": "452586",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["STD_country"],
+                    "id": "452599",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["STD_geo_class"],
+                    "id": "452617",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["STD_geo_type"],
+                    "id": "452630",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "constraint": false,
+                    "fields": ["STD_geo_DEG"],
+                    "geoJson": true,
+                    "id": "452648",
+                    "ignoreNull": true,
+                    "sparse": true,
+                    "type": "geo1",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["names[*]"],
+                    "id": "452697",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "skiplist",
+                    "unique": false
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "toponyms",
+            "numberOfShards": 1,
+            "planId": "452311",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 2,
+            "version": 6,
+            "waitForSync": false
+        }
+    }},
+    {"schemas": {
+        "indexes": [
+            {
+                "deduplicate": false,
+                "fields": ["predicate"],
+                "id": "452964",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["branches[*]"],
+                "id": "452982",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            }
+        ],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "452841",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/452841",
+            "id": "452841",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "fields": ["_from"],
+                    "id": "1",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "edge",
+                    "unique": false
+                },
+                {
+                    "fields": ["_to"],
+                    "id": "2",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "edge",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["predicate"],
+                    "id": "452964",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["branches[*]"],
+                    "id": "452982",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "schemas",
+            "numberOfShards": 1,
+            "planId": "452841",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 3,
+            "version": 6,
+            "waitForSync": false
+        }
+    }},
+    {"edges": {
+        "indexes": [
+            {
+                "deduplicate": false,
+                "fields": ["predicate"],
+                "id": "453099",
+                "selectivityEstimate": 1,
+                "sparse": false,
+                "type": "hash",
+                "unique": false
+            },
+            {
+                "deduplicate": false,
+                "fields": ["attributes[*]"],
+                "id": "453117",
+                "selectivityEstimate": 1,
+                "sparse": true,
+                "type": "hash",
+                "unique": false
+            }
+        ],
+        "parameters": {
+            "allowUserKeys": true,
+            "cacheEnabled": false,
+            "cid": "453061",
+            "deleted": false,
+            "globallyUniqueId": "h805277789466/453061",
+            "id": "453061",
+            "indexes": [
+                {
+                    "fields": ["_key"],
+                    "id": "0",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "primary",
+                    "unique": true
+                },
+                {
+                    "fields": ["_from"],
+                    "id": "1",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "edge",
+                    "unique": false
+                },
+                {
+                    "fields": ["_to"],
+                    "id": "2",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "edge",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["predicate"],
+                    "id": "453099",
+                    "selectivityEstimate": 1,
+                    "sparse": false,
+                    "type": "hash",
+                    "unique": false
+                },
+                {
+                    "deduplicate": false,
+                    "fields": ["attributes[*]"],
+                    "id": "453117",
+                    "selectivityEstimate": 1,
+                    "sparse": true,
+                    "type": "hash",
+                    "unique": false
+                }
+            ],
+            "isSmart": false,
+            "isSystem": false,
+            "keyOptions": {
+                "allowUserKeys": true,
+                "lastValue": 0,
+                "type": "traditional"
+            },
+            "name": "edges",
+            "numberOfShards": 1,
+            "planId": "453061",
+            "replicationFactor": 1,
+            "shardKeys": ["_key"],
+            "shards": {},
+            "status": 3,
+            "type": 3,
+            "version": 6,
+            "waitForSync": false
+        }
+    }}
+]

@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="d3yV6-9ltsa">
+  <start-date>2017-09-11T06:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="32400" end-time="46800"/>
+        <time-span start-time="50400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="32400" end-time="46800"/>
+        <time-span start-time="50400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="32400" end-time="46800"/>
+        <time-span start-time="50400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="32400" end-time="46800"/>
+        <time-span start-time="50400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="32400" end-time="46800"/>
+        <time-span start-time="50400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2017-07-28T07:00:00.000Z" end="2017-07-28T16:00:00.000Z" sd="6052" st="32400" ed="6052" et="64800"/>
+        <event start="2017-09-15T07:00:00.000Z" end="2017-09-15T16:00:00.000Z" sd="6101" st="32400" ed="6101" et="64800"/>
+        <event start="2017-09-18T07:00:00.000Z" end="2017-09-20T16:00:00.000Z" sd="6104" st="32400" ed="6106" et="64800"/>
+        <event start="2017-09-29T12:00:00.000Z" end="2017-09-29T16:00:00.000Z" sd="6115" st="50400" ed="6115" et="64800"/>
+        <event start="2017-10-02T07:00:00.000Z" end="2017-10-06T16:00:00.000Z" sd="6118" st="32400" ed="6122" et="64800"/>
+        <event start="2017-11-01T08:00:00.000Z" end="2017-11-01T17:00:00.000Z" sd="6148" st="32400" ed="6148" et="64800"/>
+        <event start="2017-12-04T08:00:00.000Z" end="2017-12-06T17:00:00.000Z" sd="6181" st="32400" ed="6183" et="64800"/>
+        <event start="2017-12-11T08:00:00.000Z" end="2017-12-15T17:00:00.000Z" sd="6188" st="32400" ed="6192" et="64800"/>
+        <event start="2017-12-25T08:00:00.000Z" end="2017-12-26T17:00:00.000Z" sd="6202" st="32400" ed="6203" et="64800"/>
+        <event start="2018-01-01T08:00:00.000Z" end="2018-01-01T17:00:00.000Z" sd="6209" st="32400" ed="6209" et="64800"/>
+        <event start="2018-01-10T08:00:00.000Z" end="2018-01-12T17:00:00.000Z" sd="6218" st="32400" ed="6220" et="64800"/>
+        <event start="2018-02-14T13:00:00.000Z" end="2018-02-14T17:00:00.000Z" sd="6253" st="50400" ed="6253" et="64800"/>
+        <event start="2018-02-26T08:00:00.000Z" end="2018-02-28T17:00:00.000Z" sd="6265" st="32400" ed="6267" et="64800"/>
+      </calendar>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Milko Skofic</name>
+    <type>Staff</type>
+    <schedule>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2018-03-19T08:00:00.000Z" end="2018-03-23T17:00:00.000Z" sd="6286" st="32400" ed="6290" et="64800"/>
+      </calendar>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t7"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+    <child-task idref="t16"/>
+    <child-task idref="t43"/>
+    <child-task idref="t51"/>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <child-task idref="t19"/>
+    <child-task idref="t26"/>
+    <child-task idref="t32"/>
+    <child-task idref="t100"/>
+    <child-task idref="t33"/>
+    <child-task idref="t34"/>
+    <child-task idref="t53"/>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <child-task idref="t107"/>
+    <child-task idref="t108"/>
+    <child-task idref="t114"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <child-task idref="t71"/>
+    <child-task idref="t76"/>
+    <child-task idref="t84"/>
+    <child-task idref="t85"/>
+    <child-task idref="t93"/>
+    <child-task idref="t125"/>
+    <child-task idref="t126"/>
+    <child-task idref="t128"/>
+    <child-task idref="t129"/>
+    <child-task idref="t131"/>
+    <child-task idref="t130"/>
+  </task>
+  <task id="t1">
+    <title>Workflow analysis</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2017-09-04T06:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Breakdown of the main actions needed starting from the registration of a survey into the system, until the obtention of a cleaned dataset in the aggregated data store.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-09-04T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t7">
+    <title>Data dictionary workflow analysis</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine the general structure and workflow governing in the data dictionary.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Graph structure: determine the distinct predicates and the graph structure needed to represent controlled vocabularies, structures, forms and other types of relationships.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t9">
+    <title>Data dictionary components analysis</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine which components are needed to implement the data dictionary.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Test a series of use-cases and collect the necessary elements needed to express all aspects of descriptor data types, definitions and implementation as database keys.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t7"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t10">
+    <title>Build a conceptual prototype of the data dictionary components</title>
+    <type>group</type>
+    <child-task idref="t11"/>
+    <child-task idref="t12"/>
+    <child-task idref="t14"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine the components and rules governing the data dictionary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t9"/>
+  </task>
+  <task id="t11">
+    <title>Build the term model</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine the rules and structure of the data dictionary terms.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Enumerations, templates, categories, terms, classes, structures, forms, collections and other term types.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t12">
+    <title>Build the descriptor model</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine the rules and structure of the data dictionary descriptors.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Create schema for descriptors based on their data type.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t11"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t13">
+    <title>Update census of required classes from data standards.</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>During the compilation of data standards </lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t50"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t14">
+    <title>Build the relationships model</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine the base rules and behaviour of schema edge objects.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Design the schema and workflow for enumerations, controlled vocabulary templates, categories and choices, class and structure relationships, form and output reports.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t12"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t16">
+    <title>Test conceptual model</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Apply use cases to the model and refine the model.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Compile and test a set of queries in the database to test the model.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Refine the model and repeat until effective.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t14"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t17">
+    <title>Compile the base data dictionary</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Create a list of terms, descriptors and schema relationships that constitute the base of the data dictionary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t52"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t18">
+    <title>Load data dictionary components in database</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Load terms, descriptors and edges in database.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Develop scripts to automate and validate data dictionary elements.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t17"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t19">
+    <title>Test data dictionary components</title>
+    <type>group</type>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Perform tests on data dictionary functions.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t18"/>
+  </task>
+  <task id="t20">
+    <title>Apply use cases</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Add required elements depending on specific use cases.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t21">
+    <title>Test enumerations functionality</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile and test queries for traversing controlled vocabularies</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t20"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t22">
+    <title>Test classes and structures</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile and test queries to traverse classes and structures.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t21"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t23">
+    <title>Test forms structures</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile and test form structures and layouts.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t22"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t26">
+    <title>Compile and integrate standard data</title>
+    <type>group</type>
+    <child-task idref="t102"/>
+    <child-task idref="t103"/>
+    <child-task idref="t27"/>
+    <child-task idref="t28"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Find clean and load standard data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t27">
+    <title>Load ISO standards</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile and load ISO language, currency and country administrative units.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Develop scripts to automatically update standards.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t103"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t28">
+    <title>Load geographical standards</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile and load Geonames and GEOnet toponyms.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Develop scripts to automatically update standards.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t27"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t32">
+    <title>Test and stress with standard data</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Perform stress queries using standard data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t28"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t33">
+    <title>Compile components for user management</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine structures and forms needed to implement user management.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Determine authentication strategy.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Distribute responsibility between database API services and web site API services.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t100"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t34">
+    <title>Implement user management API</title>
+    <type>group</type>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t37"/>
+    <child-task idref="t38"/>
+    <child-task idref="t42"/>
+    <child-task idref="t41"/>
+    <child-task idref="t39"/>
+    <child-task idref="t40"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement database micro-services for user management.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t33"/>
+  </task>
+  <task id="t35">
+    <title>Implement signup micro-services</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for the creation of new users.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t36">
+    <title>Implement signin micro-services</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for the registration of new users.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t35"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t37">
+    <title>Implement login micro-services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for user login.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t36"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t38">
+    <title>Implement logout micro-services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for user logout process.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t37"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t39">
+    <title>Implement user group creation micro-service</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for the creation of user groups.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t41"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t40">
+    <title>Implement user listings micro services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for listing users</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t39"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t41">
+    <title>Implement credentials management micro-services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for managing user credentials according to current user rank and roles.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t42"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t42">
+    <title>Implement current user sessions micro-services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to handle current user and current session.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t38"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t43">
+    <title>Atomic operations census</title>
+    <type>group</type>
+    <child-task idref="t44"/>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <child-task idref="t47"/>
+  </task>
+  <task id="t44">
+    <title>Census of all required atomic operations</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>All low level operations. The selection should go from the detailed to the more high level, the idea is to break down every required operation into a detailed flowchart that will allow enumerating all the required data and functional elements that are required for the task. </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>This activity should produce a list of atomic tasks that can be added to this plan</lit>
+          </run>
+          <run>
+            <lit>.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t16"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t45">
+    <title>Census of all required descriptors for low level operations</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This activity should look at the result of “</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>Census of all required atomic operations”</lit>
+          </run>
+          <run>
+            <lit> and determine all necessary information items that are required to complete the task. Each of these items should translate into a descriptor, existing or new, that should be added to the structure spreadsheet which will be parsed and added to the database.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t44"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t46">
+    <title>Census of all required classes for low level operations</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This activity takes the results of the “</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>Census of all required descriptors</lit>
+          </run>
+          <run>
+            <lit>” activity, along with the results of the “</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>Census of all required atomic operations</lit>
+          </run>
+          <run>
+            <lit>”, and uses them to compile the list of objects that are required to complete those tasks. This classes will be added to the “Symbols.numbers” file and later imported into the database.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t45"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t47">
+    <title>Determine new collection requirements</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This activity consists of noting whether atomic operations involve the use of new collections and assigning new classes to these collections.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t46"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t49">
+    <title>Compilation of data standards.</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Select, clean and compile list of standard data required for the project.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>ISO 3166, ISO 639, ISO 4217, World Bank, Genoames, GEONet.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t50">
+    <title>Update census of required descriptors from data standards..</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>During the compilation of data standards, determine which descriptors are needed to handle the information and add to the descriptors spreadsheet the new ones and comment existing ones for usage in standards.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t49"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t51">
+    <title>Data standards</title>
+    <type>group</type>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t13"/>
+    <child-task idref="t52"/>
+    <prerequisite-task idref="t47"/>
+  </task>
+  <task id="t52">
+    <title>Determine new collection requirements.</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>As new data standards classes are compiled, determine whether these should reside in collections other than </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>TERMS</lit>
+          </run>
+          <run>
+            <lit>. For instance the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>Geonames</lit>
+          </run>
+          <run>
+            <lit> data should not be stored in </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-italic">yes</value>
+            </style>
+            <lit>TERMS</lit>
+          </run>
+          <run>
+            <lit>, except for eventual enumerations and structures.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t13"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t53">
+    <title>Implement dynamic forms generation</title>
+    <effort>172800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement JSX procedures to dynamically generate screen forms according to form definitions in the data dictionary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t34"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t54">
+    <title>Test dynamic forms generation</title>
+    <effort>86400</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Test and refine dynamic forms generation. Add required additional data elements to the data dictionary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t53"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t55">
+    <title>Implement user management screen forms and procedures</title>
+    <type>group</type>
+    <child-task idref="t56"/>
+    <child-task idref="t57"/>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t60"/>
+    <child-task idref="t61"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement user management forms using dynamic form generation procedures. Implement management procedures.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t54"/>
+  </task>
+  <task id="t56">
+    <title>Implement signup</title>
+    <effort>43200</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement signup form.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t57">
+    <title>Implement signup e-mail communication</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement procedures to send user registration invitation via e-mail.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t56"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t58">
+    <title>Implement signin</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement e-mail response and signin form.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement signin procedure.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t57"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t59">
+    <title>Clone signin for user data</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Clone and modify signin form for user profile management.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t58"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t60">
+    <title>Implement login</title>
+    <effort>7200</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement login form and procedure.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t59"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t61">
+    <title>Implement logout</title>
+    <effort>3600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement logout procedure.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t60"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t62">
+    <title>Implement study registration micro-services</title>
+    <effort>57600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for study registration.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement data dictionary elements for linking studies to other components in the application.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement micro-services for the management of studies.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t119"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t63">
+    <title>Implement study annex documents registration micro-services</title>
+    <effort>57600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for registration of study annex documents.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement micro-services for the management of annex documents.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t62"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t64">
+    <title>Implement study annex upload forms</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement forms for uploading study annex documents.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement procedures for storing annex documents.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t63"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t65">
+    <title>Implement dataset parsing procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement procedures for parsing datasets into working collections.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Initially handle CSV files.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t64"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t66">
+    <title>Implement dataset parsing and registration micro-services</title>
+    <effort>57600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for creating working dataset collections.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement dataset management micro-services.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t65"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t67">
+    <title>Analyse dataset harmonisation workflow</title>
+    <type>group</type>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+    <child-task idref="t70"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This workflow applies to the process of displaying the dataset, selecting the data rows and assigning columns to existing data dictionary descriptors.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t66"/>
+  </task>
+  <task id="t68">
+    <title>Perform analysis of dataset harmonisation workflow steps</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile a list of distinct actions and responses involved in the harmonisation process.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t69">
+    <title>Breakdown steps into individual user interface interactions</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Convert workflow steps into individual user interface screens and interactions.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t68"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t70">
+    <title>Breakdown steps into individual data micro-services</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Compile list of required micro-services to manage the harmonisation process.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t69"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t71">
+    <title>Implement dataset harmonisation micro-services</title>
+    <type>group</type>
+    <child-task idref="t72"/>
+    <child-task idref="t73"/>
+    <child-task idref="t74"/>
+    <child-task idref="t75"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement the micro-services needed for all harmonisation steps.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t70"/>
+  </task>
+  <task id="t72">
+    <title>Implement original dataset request</title>
+    <effort>21600</effort>
+    <start-constraint-date>2018-04-04T13:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to request the original dataset full table.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-04-04T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t73">
+    <title>Implement original dataset header and data row selection</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-04-05T10:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to record working data rows and header row.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t72"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-04-05T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t74">
+    <title>Implement automatic descriptor matching</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-service to return matched columns according to contents of header row.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t73"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t75">
+    <title>Implement descriptor assignment</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-service for assigning descriptors to columns.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t74"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t76">
+    <title>Implement dataset harmonisation user interface</title>
+    <type>group</type>
+    <child-task idref="t77"/>
+    <child-task idref="t78"/>
+    <child-task idref="t79"/>
+    <child-task idref="t80"/>
+    <child-task idref="t81"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement user interface elements needed for dataset harmonisation.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t75"/>
+  </task>
+  <task id="t77">
+    <title>Implement original dataset table display</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement screen to display first N rows of original dataset.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t78">
+    <title>Implement header and data rows selection interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement user interface elements to select header and data rows.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t77"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t79">
+    <title>Implement descriptor matching user interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to display and validate automatic descriptor matches.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t78"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t80">
+    <title>Implement manual descriptor selection</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to browse and select descriptors to be assigned to selected columns.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t79"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t81">
+    <title>Implement descriptor assignement registration.</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t80"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t84">
+    <title>Compile list of data cleaning procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Perform analysis of all required data cleaning procedures to be performed during and after harmonisation.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t81"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t85">
+    <title>Implement data cleaning micro-services</title>
+    <type>group</type>
+    <child-task idref="t86"/>
+    <child-task idref="t87"/>
+    <child-task idref="t88"/>
+    <child-task idref="t89"/>
+    <child-task idref="t90"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services needed for data cleaning procedures.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t84"/>
+  </task>
+  <task id="t86">
+    <title>Implement validation procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for data validation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>This will exclusively check if the data matches the expected data types.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t87">
+    <title>Implement categorical procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to analyse and match categorical data.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>This applies to categorical data such as controlled vocabularies, it involves matching existing data to the descriptor and returning mismatches.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t86"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t88">
+    <title>Implement categorical update procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to update existing standards by adding controlled vocabulary elements.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement micro-services to update existing data by matching elements in the controlled vocabulary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t87"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t89">
+    <title>Implement statistical data information</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to display statistical summaries for quantitative data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t88"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t90">
+    <title>Implement data correction procedures</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services to correct dataset values.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>This involves displaying incorrect data (from the validation procedure) and providing the option of correcting invalid entries, or clearing invalid entries.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t89"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t93">
+    <title>Implement data cleaning interface</title>
+    <type>group</type>
+    <child-task idref="t94"/>
+    <child-task idref="t95"/>
+    <child-task idref="t96"/>
+    <child-task idref="t97"/>
+    <child-task idref="t98"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface for data cleaning operations.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t90"/>
+  </task>
+  <task id="t94">
+    <title>Implement validation interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to display validation errors.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t95">
+    <title>Implement categorical validation interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to display categorical data matching.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t94"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t96">
+    <title>Implement categorical update interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to add controlled vocabulary elements.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement interface to update existing data by matching elements in the controlled vocabulary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t95"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t97">
+    <title>Implement statistical data information interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to display statistical summaries for quantitative data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t96"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t98">
+    <title>Implement data correction interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to correct dataset values.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t97"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t100">
+    <title>Review data dictionary and standard data</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-01-08T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Review data dictionary and standards data dictionary.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Compile final symbols list.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Develop cleaning and uploading scripts.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Load in database for testing.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t32"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-01-08T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t102">
+    <title>Identify data standards</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2017-11-29T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Identify and download data standards datasets.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-11-29T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t103">
+    <title>Asses, and clean datasets</title>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
+    <start-constraint-date>2017-11-29T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Asses data quality.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Clean datasets.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Develop procedures to integrate data with existing data dictionary.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t102"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-11-29T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t107">
+    <title>Analysis of data dictionary management</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Determine distinct components needed in database services and web-site services.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t61"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t108">
+    <title>Implementation of data dictionary micro-services</title>
+    <type>group</type>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <child-task idref="t109"/>
+    <child-task idref="t110"/>
+    <child-task idref="t111"/>
+    <child-task idref="t112"/>
+    <child-task idref="t113"/>
+    <child-task idref="t117"/>
+    <child-task idref="t120"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement data dictionary data exchange micro-services.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t107"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t109">
+    <title>Implement terms management</title>
+    <effort>86400</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement terms creation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement terms queries.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement terms modifications.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>Implement descriptors management</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement descriptors creation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement descriptors queries.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement descriptors modification.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t109"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t111">
+    <title>Implement controlled vocabulary management</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement controlled vocabulary management micro-services.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement controlled vocabulary structure modification.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t110"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>Implement class and structures management</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-03-28T12:45:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement class and structures creation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement class and structure modification.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t111"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-03-28T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t113">
+    <title>Implement forms management</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-03-29T12:45:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement forms creation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement forms modification.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement form types management (the different display options for data dictionary elements: list element, card, etc.).</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t112"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-03-29T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>Implement data dictionary management user interface</title>
+    <type>group</type>
+    <child-task idref="t115"/>
+    <child-task idref="t116"/>
+    <child-task idref="t118"/>
+    <child-task idref="t121"/>
+    <child-task idref="t119"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement user interface to manage data dictionary elements both as a dedicated task and as an embedded task in harmonisation activities.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t120"/>
+  </task>
+  <task id="t115">
+    <title>Implement terms interface</title>
+    <effort>57600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement terms main input and modification forms.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t116">
+    <title>Implement descriptors interface</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement descriptors main input and modification forms.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t115"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t117">
+    <title>Implement edges management</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement graph edge micro-services for relating terms and descriptors.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t113"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t118">
+    <title>Implement controlled vocabulary interface</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement controlled vocabulary main forms.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t116"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t119">
+    <title>Implement data dictionary queries</title>
+    <effort>86400</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement main data dictionary query interface.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Terms, descriptors, controlled vocabularies.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Implement embedded query forms (from within data harmonisation activities).</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t121"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t120">
+    <title>Implement data dictionary queries</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for querying the data dictionary elements.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Terms, descriptors, controlled vocabularies, classes, structures and forms.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t117"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t121">
+    <title>Implement embedded forms</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement the forms needed to manage the data dictionary from within the harmonisation activities.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t118"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t125">
+    <title>Implement dataset aggregation micro-services</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for aggregating datasets.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>This involves adding the working collection to the aggregated datasets collection and removing the working collections and other related data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t98"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t126">
+    <title>Implement dataset aggregation interface</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement interface to aggregate dataset.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>This mainly involves ascertaining the current user credentials and initiating the aggregation process.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t125"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t128">
+    <title>Implement data query micro-services</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-02-13T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Implement micro-services for querying data.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t126"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-13T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t129">
+    <title>Perform validation tests</title>
+    <effort>86400</effort>
+    <start-constraint-date>2018-02-22T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Apply use cases.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Apply non-standard use cases.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Revise and fix eventual anomalies.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t128"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-22T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t130">
+    <title>Feedback</title>
+    <effort>288000</effort>
+    <start-constraint-date>2018-02-22T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Get feedback and implement suggestions.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Fix eventual bugs.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Build final documentation.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t131"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-22T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t131">
+    <title>Build installation kit</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-02-22T08:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Prepare installation kit.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Test installation.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Distribute to beta-testers.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t129"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-02-22T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

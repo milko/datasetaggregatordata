@@ -1,0 +1,20 @@
+{ 
+    "_id" : "terms/:", 
+    "_key" : ":", 
+    "lid" : "", 
+    "gid" : ":", 
+    "rank" : ":rank:default", 
+    "deploy" : ":state:application:default", 
+    "label" : {
+        "ISO:639:3:eng" : "Default namespace"
+    }, 
+    "definition" : {
+        "ISO:639:3:eng" : "This is the namespace for built-in types and structures."
+    }, 
+    "description" : {
+        "ISO:639:3:eng" : "This namespace is <em>reserved</em> for <em>default terms</em> and <em>descriptors</em>, <em>user terms</em> and <em>descriptors</em> <em>must</em> have a <em>custom namespace</em>."
+    }, 
+    "note" : {
+        "ISO:639:3:eng" : "This namespace contains an <em>empty string</em> in the <em>global identifier</em>, this will make the first character of any global identifier that uses this namespace a colon <code>:</code>. Since global identifiers cannot be empty, it will not be possible to duplicate this namespace."
+    }
+}

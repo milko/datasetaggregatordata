@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Milko Škofič" date="2018-02-13T12:45:12.188Z" timestamp="2018-02-13T12:45:12.188Z">
+    <change idref="t53" to="t-1" to-position="14">
+      <change idref="t53" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Milko Škofič" date="2018-02-13T14:13:34.387Z" timestamp="2018-02-13T14:13:34.387Z">
+    <change idref="t74" to="t71" to-position="2">
+      <change idref="t74" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Milko Škofič" date="2018-04-26T10:16:22.551Z" timestamp="2018-04-26T10:16:22.551Z">
+    <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t69" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t70" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t111" attribute="internalEffortDone" type="real" from="0" to="86400" resolved="yes"/>
+    <change idref="t120" attribute="internalEffortDone" type="real" from="0" to="86400" resolved="yes"/>
+  </task-change-set>
+</changelog>

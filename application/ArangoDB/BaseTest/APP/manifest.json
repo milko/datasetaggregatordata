@@ -1,0 +1,16 @@
+{
+    "name": "SmartDataServices",
+    "version": "0.0.0",
+    "description": "SMART surveys aggregator data services.",
+    "engines": {
+        "arangodb": "^3.3.3"
+    },
+    "author": "Milko Skofic",
+    "license": "Apache 2",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js"
+}

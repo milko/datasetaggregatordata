@@ -1,0 +1,18 @@
+Name,Prefix,Full name,Const
+terms,,terms,k_collection_terms
+descriptors,,descriptors,k_collection_descriptors
+toponyms,,toponyms,k_collection_toponyms
+shapes,,shapes,k_collection_shapes
+users,,users,k_collection_users
+groups,,groups,k_collection_groups
+settings,,settings,k_collection_settings
+logs,,logs,k_collection_logs
+messages,,messages,k_collection_messages
+sessions,,sessions,k_collection_sessions
+studies,,studies,k_collection_studies
+annexes,,annexes,k_collection_annexes
+smart,,smart,k_collection_smart
+schemas,,schemas,k_collection_schemas
+edges,,edges,k_collection_edges
+links,,links,k_collection_links
+hierarchies,,hierarchies,k_collection_hierarchies

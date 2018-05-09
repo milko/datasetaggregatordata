@@ -1,0 +1,124 @@
+/*
+ * Type hierarchy.
+ */
+FOR vertex, edge, path
+    IN 0..10
+    INBOUND @origin
+    schemas
+OPTIONS {"uniqueVertices" : "path", "uniqueEdges" : "path"}
+    FILTER path.edges[*].predicate ALL == "terms/:predicate:type-of"
+       AND @origin IN path.edges[*].branches[**]
+RETURN vertex._id
+
+
+
+
+/**
+ * FILTER GRAPH ON BRANCHES.
+ */
+FOR vertex, edge, path
+    IN 1..10
+    INBOUND @root
+    schemas
+    FILTER  @branch IN path.edges[*].branches[**]
+    RETURN vertex._key
+
+/**
+ * FILTER GRAPH ON predicates.
+ */
+FOR vertex, edge, path
+    IN 1..10
+    INBOUND @root
+    schemas
+    FILTER  @branch IN path.edges[*].branches[**]
+    RETURN vertex._key
+
+  
+
+
+/**
+ * !!! DELETE ALL TERMS !!!
+ */
+FOR doc IN TERMS
+    REMOVE doc IN TERMS
+
+
+/**
+ * !!! DELETE ALL DESCRIPTORS !!!
+ */
+FOR doc IN DESCRIPTORS
+    REMOVE doc IN DESCRIPTORS
+
+
+/**
+ * !!! DELETE ALL SCHEMAS !!!
+ */
+FOR doc IN SCHEMAS
+    REMOVE doc IN SCHEMAS
+
+
+/**
+ * Get namespaces and count.
+ */
+FOR descriptor in DESCRIPTORS
+    FILTER HAS(descriptor, "nid") == true
+    COLLECT namespace = descriptor.`nid` WITH COUNT INTO count
+    SORT count DESC
+    RETURN {
+        namespace: namespace,
+        count: count
+    }
+
+
+/**
+ * Traverse enumeration.
+ */
+FOR vertex, edge, path
+    IN 1..10
+    INBOUND @root
+    smart_schemas
+    OPTIONS {"uniqueVertices" : "path", "uniqueEdges" : "path"}
+    FILTER @branch IN edge.`branches`
+        && edge.`predicate` IN [
+            "smart_terms/:predicate:enum-of",
+            "smart_terms/:predicate:category-of" ]
+    RETURN path
+
+
+/**
+ * Traverse schema.
+ */
+FOR vertex, edge, path
+    IN 1..10
+    INBOUND @start
+    SCHEMAS
+    OPTIONS {"uniqueVertices" : "path", "uniqueEdges" : "path"}
+    FILTER @start IN edge.`branch`[*].`tag`
+        && edge.`predicate` IN [
+            ":property-of",
+            ":predicate:class-of" ]
+    RETURN path
+
+
+/**
+ * Traverse schema (filter DESCRIPTORS).
+ */
+LET thePath = (
+    FOR vertex, edge, path
+        IN 1..10
+        INBOUND @root
+        SCHEMAS
+        OPTIONS {"uniqueVertices" : "path", "uniqueEdges" : "path"}
+        FILTER @root IN edge.`branches`
+            && edge.`predicate` IN [
+                ":predicate:property-of",
+                ":predicate:class-of" ]
+        RETURN path
+)
+FOR curPath IN thePath
+    FOR curVer IN curPath.`vertices`
+        FILTER IS_SAME_COLLECTION("DESCRIPTORS", curVer._id)
+    return {
+        "edges" : curPath.`edges`,
+        "vertices" : curVer
+    }

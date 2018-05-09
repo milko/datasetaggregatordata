@@ -1,0 +1,458 @@
+[
+{ 
+    "_id" : "aav", 
+    "hierarchy" : "aav"
+},
+{ 
+    "_id" : "afa", 
+    "hierarchy" : "afa"
+},
+{ 
+    "_id" : "alg", 
+    "hierarchy" : "nai,aql,alg"
+},
+{ 
+    "_id" : "alv", 
+    "hierarchy" : "nic,alv"
+},
+{ 
+    "_id" : "apa", 
+    "hierarchy" : "nai,xnd,ath,apa"
+},
+{ 
+    "_id" : "aqa", 
+    "hierarchy" : "sai,aqa"
+},
+{ 
+    "_id" : "aql", 
+    "hierarchy" : "nai,aql"
+},
+{ 
+    "_id" : "art", 
+    "hierarchy" : "art"
+},
+{ 
+    "_id" : "ath", 
+    "hierarchy" : "nai,xnd,ath"
+},
+{ 
+    "_id" : "auf", 
+    "hierarchy" : "sai,awd,auf"
+},
+{ 
+    "_id" : "aus", 
+    "hierarchy" : "aus"
+},
+{ 
+    "_id" : "awd", 
+    "hierarchy" : "sai,awd"
+},
+{ 
+    "_id" : "azc", 
+    "hierarchy" : "nai,azc"
+},
+{ 
+    "_id" : "bad", 
+    "hierarchy" : "nic,alv,bad"
+},
+{ 
+    "_id" : "bai", 
+    "hierarchy" : "nic,alv,bai"
+},
+{ 
+    "_id" : "bat", 
+    "hierarchy" : "ine,bat"
+},
+{ 
+    "_id" : "ber", 
+    "hierarchy" : "afa,ber"
+},
+{ 
+    "_id" : "bih", 
+    "hierarchy" : "ine,iir,bih"
+},
+{ 
+    "_id" : "bnt", 
+    "hierarchy" : "nic,alv,bnt"
+},
+{ 
+    "_id" : "btk", 
+    "hierarchy" : "map,poz,pqw,btk"
+},
+{ 
+    "_id" : "cai", 
+    "hierarchy" : "cai"
+},
+{ 
+    "_id" : "cau", 
+    "hierarchy" : "cau"
+},
+{ 
+    "_id" : "cba", 
+    "hierarchy" : "sai,cba"
+},
+{ 
+    "_id" : "ccn", 
+    "hierarchy" : "cau,ccn"
+},
+{ 
+    "_id" : "ccs", 
+    "hierarchy" : "cau,ccs"
+},
+{ 
+    "_id" : "cdc", 
+    "hierarchy" : "afa,cdc"
+},
+{ 
+    "_id" : "cdd", 
+    "hierarchy" : "nai,cdd"
+},
+{ 
+    "_id" : "cel", 
+    "hierarchy" : "ine,cel"
+},
+{ 
+    "_id" : "cmc", 
+    "hierarchy" : "map,poz,pqw,cmc"
+},
+{ 
+    "_id" : "cpe", 
+    "hierarchy" : "crp,cpe"
+},
+{ 
+    "_id" : "cpf", 
+    "hierarchy" : "crp,cpf"
+},
+{ 
+    "_id" : "cpp", 
+    "hierarchy" : "crp,cpp"
+},
+{ 
+    "_id" : "crp", 
+    "hierarchy" : "crp"
+},
+{ 
+    "_id" : "csu", 
+    "hierarchy" : "ssa,csu"
+},
+{ 
+    "_id" : "cus", 
+    "hierarchy" : "afa,cus"
+},
+{ 
+    "_id" : "day", 
+    "hierarchy" : "day"
+},
+{ 
+    "_id" : "dmn", 
+    "hierarchy" : "nic,dmn"
+},
+{ 
+    "_id" : "dra", 
+    "hierarchy" : "dra"
+},
+{ 
+    "_id" : "egx", 
+    "hierarchy" : "afa,egx"
+},
+{ 
+    "_id" : "esx", 
+    "hierarchy" : "esx"
+},
+{ 
+    "_id" : "euq", 
+    "hierarchy" : "euq"
+},
+{ 
+    "_id" : "fiu", 
+    "hierarchy" : "urj,fiu"
+},
+{ 
+    "_id" : "fox", 
+    "hierarchy" : "map,fox"
+},
+{ 
+    "_id" : "gem", 
+    "hierarchy" : "ine,gem"
+},
+{ 
+    "_id" : "gme", 
+    "hierarchy" : "ine,gem,gme"
+},
+{ 
+    "_id" : "gmq", 
+    "hierarchy" : "ine,gem,gmq"
+},
+{ 
+    "_id" : "gmw", 
+    "hierarchy" : "ine,gem,gmw"
+},
+{ 
+    "_id" : "grk", 
+    "hierarchy" : "ine,grk"
+},
+{ 
+    "_id" : "hmx", 
+    "hierarchy" : "hmx"
+},
+{ 
+    "_id" : "hok", 
+    "hierarchy" : "nai,hok"
+},
+{ 
+    "_id" : "hyx", 
+    "hierarchy" : "ine,hyx"
+},
+{ 
+    "_id" : "iir", 
+    "hierarchy" : "ine,iir"
+},
+{ 
+    "_id" : "ijo", 
+    "hierarchy" : "nic,alv,ijo"
+},
+{ 
+    "_id" : "inc", 
+    "hierarchy" : "ine,iir,inc"
+},
+{ 
+    "_id" : "ine", 
+    "hierarchy" : "ine"
+},
+{ 
+    "_id" : "ira", 
+    "hierarchy" : "ine,iir,ira"
+},
+{ 
+    "_id" : "iro", 
+    "hierarchy" : "nai,iro"
+},
+{ 
+    "_id" : "itc", 
+    "hierarchy" : "ine,itc"
+},
+{ 
+    "_id" : "jpx", 
+    "hierarchy" : "jpx"
+},
+{ 
+    "_id" : "kar", 
+    "hierarchy" : "sit,tbq,kar"
+},
+{ 
+    "_id" : "kdo", 
+    "hierarchy" : "nic,kdo"
+},
+{ 
+    "_id" : "khi", 
+    "hierarchy" : "khi"
+},
+{ 
+    "_id" : "kro", 
+    "hierarchy" : "nic,alv,kro"
+},
+{ 
+    "_id" : "map", 
+    "hierarchy" : "map"
+},
+{ 
+    "_id" : "mkh", 
+    "hierarchy" : "aav,mkh"
+},
+{ 
+    "_id" : "mno", 
+    "hierarchy" : "map,poz,pqw,phi,mno"
+},
+{ 
+    "_id" : "mun", 
+    "hierarchy" : "aav,mun"
+},
+{ 
+    "_id" : "myn", 
+    "hierarchy" : "cai,myn"
+},
+{ 
+    "_id" : "nah", 
+    "hierarchy" : "nai,azc,nah"
+},
+{ 
+    "_id" : "nai", 
+    "hierarchy" : "nai"
+},
+{ 
+    "_id" : "ngf", 
+    "hierarchy" : "paa,ngf"
+},
+{ 
+    "_id" : "nic", 
+    "hierarchy" : "nic"
+},
+{ 
+    "_id" : "nub", 
+    "hierarchy" : "ssa,sdv,nub"
+},
+{ 
+    "_id" : "omq", 
+    "hierarchy" : "cai,omq"
+},
+{ 
+    "_id" : "omv", 
+    "hierarchy" : "afa,omv"
+},
+{ 
+    "_id" : "oto", 
+    "hierarchy" : "cai,omq,oto"
+},
+{ 
+    "_id" : "paa", 
+    "hierarchy" : "paa"
+},
+{ 
+    "_id" : "phi", 
+    "hierarchy" : "map,poz,pqw,phi"
+},
+{ 
+    "_id" : "plf", 
+    "hierarchy" : "map,poz,plf"
+},
+{ 
+    "_id" : "poz", 
+    "hierarchy" : "map,poz"
+},
+{ 
+    "_id" : "pqe", 
+    "hierarchy" : "map,poz,pqe"
+},
+{ 
+    "_id" : "pqw", 
+    "hierarchy" : "map,poz,pqw"
+},
+{ 
+    "_id" : "pra", 
+    "hierarchy" : "ine,iir,inc,pra"
+},
+{ 
+    "_id" : "qwe", 
+    "hierarchy" : "sai,qwe"
+},
+{ 
+    "_id" : "roa", 
+    "hierarchy" : "ine,itc,roa"
+},
+{ 
+    "_id" : "sai", 
+    "hierarchy" : "sai"
+},
+{ 
+    "_id" : "sal", 
+    "hierarchy" : "nai,sal"
+},
+{ 
+    "_id" : "sdv", 
+    "hierarchy" : "ssa,sdv"
+},
+{ 
+    "_id" : "sem", 
+    "hierarchy" : "afa,sem"
+},
+{ 
+    "_id" : "sgn", 
+    "hierarchy" : "sgn"
+},
+{ 
+    "_id" : "sio", 
+    "hierarchy" : "nai,sio"
+},
+{ 
+    "_id" : "sit", 
+    "hierarchy" : "sit"
+},
+{ 
+    "_id" : "sla", 
+    "hierarchy" : "ine,sla"
+},
+{ 
+    "_id" : "smi", 
+    "hierarchy" : "urj,fiu,smi"
+},
+{ 
+    "_id" : "son", 
+    "hierarchy" : "ssa,son"
+},
+{ 
+    "_id" : "sqj", 
+    "hierarchy" : "ine,sqj"
+},
+{ 
+    "_id" : "ssa", 
+    "hierarchy" : "ssa"
+},
+{ 
+    "_id" : "syd", 
+    "hierarchy" : "urj,syd"
+},
+{ 
+    "_id" : "tai", 
+    "hierarchy" : "tai"
+},
+{ 
+    "_id" : "tbq", 
+    "hierarchy" : "sit,tbq"
+},
+{ 
+    "_id" : "trk", 
+    "hierarchy" : "tut,trk"
+},
+{ 
+    "_id" : "tup", 
+    "hierarchy" : "sai,tup"
+},
+{ 
+    "_id" : "tut", 
+    "hierarchy" : "tut"
+},
+{ 
+    "_id" : "tuw", 
+    "hierarchy" : "tut,tuw"
+},
+{ 
+    "_id" : "urj", 
+    "hierarchy" : "urj"
+},
+{ 
+    "_id" : "wak", 
+    "hierarchy" : "nai,wak"
+},
+{ 
+    "_id" : "wen", 
+    "hierarchy" : "ine,sla,zlw,wen"
+},
+{ 
+    "_id" : "xgn", 
+    "hierarchy" : "tut,xgn"
+},
+{ 
+    "_id" : "xnd", 
+    "hierarchy" : "nai,xnd"
+},
+{ 
+    "_id" : "ypk", 
+    "hierarchy" : "esx,ypk"
+},
+{ 
+    "_id" : "zhx", 
+    "hierarchy" : "sit,zhx"
+},
+{ 
+    "_id" : "zle", 
+    "hierarchy" : "ine,sla,zle"
+},
+{ 
+    "_id" : "zls", 
+    "hierarchy" : "ine,sla,zls"
+},
+{ 
+    "_id" : "zlw", 
+    "hierarchy" : "ine,sla,zlw"
+}
+]

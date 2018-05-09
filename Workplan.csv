@@ -1,0 +1,155 @@
+WBS Number,Title,Start,End,Time,Effort,%Done,Cost,Assigned,Planned Start,Start Variance,Planned End,End Variance,Constraint Start,Constraint End,Prerequisites,NoteContents,Priority,Resources Cost,Total Task Cost
+1,Workflow analysis,11/09/2017 09:00,14/09/2017 18:00,4d,4d,100 %,,Milko Skofic,,,,,04/09/2017 08:00,,,"Breakdown of the main actions needed starting from the registration of a survey into the system, until the obtention of a cleaned dataset in the aggregated data store.",0,,
+2,Data dictionary workflow analysis,21/09/2017 09:00,26/09/2017 18:00,4d,4d,100 %,,Milko Skofic,,,,,,,1,"Determine the general structure and workflow governing in the data dictionary.
+Graph structure: determine the distinct predicates and the graph structure needed to represent controlled vocabularies, structures, forms and other types of relationships.",0,,
+3,Data dictionary components analysis,27/09/2017 09:00,10/10/2017 13:00,4d,4d,100 %,,Milko Skofic,,,,,,,2,"Determine which components are needed to implement the data dictionary.
+Test a series of use-cases and collect the necessary elements needed to express all aspects of descriptor data types, definitions and implementation as database keys.",0,,
+4,Build a conceptual prototype of the data dictionary components,10/10/2017 14:00,19/10/2017 13:00,1w 2d,1w 2d,100 %,,,,,,,,,3,Determine the components and rules governing the data dictionary.,,,
+4.1,Build the term model,10/10/2017 14:00,12/10/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,,"Determine the rules and structure of the data dictionary terms.
+Enumerations, templates, categories, terms, classes, structures, forms, collections and other term types.",0,,
+4.2,Build the descriptor model,12/10/2017 14:00,16/10/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,4.1,"Determine the rules and structure of the data dictionary descriptors.
+Create schema for descriptors based on their data type.",0,,
+4.3,Build the relationships model,16/10/2017 14:00,19/10/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,4.2,"Determine the base rules and behaviour of schema edge objects.
+Design the schema and workflow for enumerations, controlled vocabulary templates, categories and choices, class and structure relationships, form and output reports.",0,,
+5,Test conceptual model,19/10/2017 14:00,24/10/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,4.3,"Apply use cases to the model and refine the model.
+Compile and test a set of queries in the database to test the model.
+Refine the model and repeat until effective.",0,,
+6,Atomic operations census,24/10/2017 14:00,08/11/2017 13:00,2w,2w,100 %,,,,,,,,,,,,,
+6.1,Census of all required atomic operations,24/10/2017 14:00,27/10/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,5,"All low level operations. The selection should go from the detailed to the more high level, the idea is to break down every required operation into a detailed flowchart that will allow enumerating all the required data and functional elements that are required for the task. This activity should produce a list of atomic tasks that can be added to this plan.",0,,
+6.2,Census of all required descriptors for low level operations,27/10/2017 14:00,02/11/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,6.1,"This activity should look at the result of “Census of all required atomic operations” and determine all necessary information items that are required to complete the task. Each of these items should translate into a descriptor, existing or new, that should be added to the structure spreadsheet which will be parsed and added to the database.",0,,
+6.3,Census of all required classes for low level operations,02/11/2017 14:00,06/11/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,6.2,"This activity takes the results of the “Census of all required descriptors” activity, along with the results of the “Census of all required atomic operations”, and uses them to compile the list of objects that are required to complete those tasks. This classes will be added to the “Symbols.numbers” file and later imported into the database.",0,,
+6.4,Determine new collection requirements,06/11/2017 14:00,08/11/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,6.3,This activity consists of noting whether atomic operations involve the use of new collections and assigning new classes to these collections.,0,,
+7,Data standards,08/11/2017 14:00,17/11/2017 13:00,1w 2d,1w 2d,100 %,,,,,,,,,6.4,,,,
+7.1,Compilation of data standards.,08/11/2017 14:00,13/11/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,,"Select, clean and compile list of standard data required for the project.
+ISO 3166, ISO 639, ISO 4217, World Bank, Genoames, GEONet.",0,,
+7.2,Update census of required descriptors from data standards..,13/11/2017 14:00,15/11/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,7.1,"During the compilation of data standards, determine which descriptors are needed to handle the information and add to the descriptors spreadsheet the new ones and comment existing ones for usage in standards.",0,,
+7.3,Update census of required classes from data standards.,15/11/2017 14:00,16/11/2017 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,7.2,During the compilation of data standards ,0,,
+7.4,Determine new collection requirements.,16/11/2017 14:00,17/11/2017 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,7.3,"As new data standards classes are compiled, determine whether these should reside in collections other than TERMS. For instance the Geonames data should not be stored in TERMS, except for eventual enumerations and structures.",0,,
+8,Compile the base data dictionary,17/11/2017 14:00,22/11/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,7.4,"Create a list of terms, descriptors and schema relationships that constitute the base of the data dictionary.",0,,
+9,Load data dictionary components in database,22/11/2017 14:00,24/11/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,8,"Load terms, descriptors and edges in database.
+Develop scripts to automate and validate data dictionary elements.",0,,
+10,Test data dictionary components,24/11/2017 14:00,19/12/2017 13:00,1w 4d,1w 4d,100 %,,,,,,,,,9,Perform tests on data dictionary functions.,,,
+10.1,Apply use cases,24/11/2017 14:00,29/11/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,,Add required elements depending on specific use cases.,0,,
+10.2,Test enumerations functionality,29/11/2017 14:00,07/12/2017 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,10.1,Compile and test queries for traversing controlled vocabularies,0,,
+10.3,Test classes and structures,07/12/2017 14:00,18/12/2017 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,10.2,Compile and test queries to traverse classes and structures.,0,,
+10.4,Test forms structures,18/12/2017 14:00,19/12/2017 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,10.3,Compile and test form structures and layouts.,0,,
+11,Compile and integrate standard data,19/12/2017 14:00,18/01/2018 13:00,3w 1d,3w 1d,100 %,,,,,,,,,10.4,Find clean and load standard data.,,,
+11.1,Identify data standards,19/12/2017 14:00,22/12/2017 13:00,3d,3d,100 %,,,,,,,29/11/2017 09:00,,,Identify and download data standards datasets.,0,,
+11.2,"Asses, and clean datasets",22/12/2017 14:00,03/01/2018 13:00,1w,1w,100 %,,,,,,,29/11/2017 09:00,,11.1,"Asses data quality.
+Clean datasets.
+Develop procedures to integrate data with existing data dictionary.",0,,
+11.3,Load ISO standards,03/01/2018 14:00,09/01/2018 13:00,4d,4d,100 %,,Milko Skofic,,,,,,,11.2,"Compile and load ISO language, currency and country administrative units.
+Develop scripts to automatically update standards.",0,,
+11.4,Load geographical standards,09/01/2018 14:00,18/01/2018 13:00,4d,4d,100 %,,Milko Skofic,,,,,,,11.3,"Compile and load Geonames and GEOnet toponyms.
+Develop scripts to automatically update standards.",0,,
+12,Test and stress with standard data,18/01/2018 14:00,24/01/2018 13:00,4d,4d,100 %,,Milko Skofic,,,,,,,11.4,Perform stress queries using standard data.,0,,
+13,Review data dictionary and standard data,24/01/2018 14:00,29/01/2018 13:00,3d,3d,100 %,,Milko Skofic,,,,,08/01/2018 09:00,,12,"Review data dictionary and standards data dictionary.
+Compile final symbols list.
+Develop cleaning and uploading scripts.
+Load in database for testing.",0,,
+14,Compile components for user management,29/01/2018 14:00,01/02/2018 13:00,3d,3d,100 %,,Milko Skofic,,,,,,,13,"Determine structures and forms needed to implement user management.
+Determine authentication strategy.
+Distribute responsibility between database API services and web site API services.",0,,
+15,Implement user management API,01/02/2018 14:00,15/02/2018 18:00,2w,2w,100 %,,,,,,,,,14,Implement database micro-services for user management.,,,
+15.1,Implement signup micro-services,01/02/2018 14:00,05/02/2018 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,,Implement micro-services for the creation of new users.,0,,
+15.2,Implement signin micro-services,05/02/2018 14:00,07/02/2018 13:00,2d,2d,100 %,,Milko Skofic,,,,,,,15.1,Implement micro-services for the registration of new users.,0,,
+15.3,Implement login micro-services,07/02/2018 14:00,08/02/2018 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.2,Implement micro-services for user login.,0,,
+15.4,Implement logout micro-services,08/02/2018 14:00,09/02/2018 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.3,Implement micro-services for user logout process.,0,,
+15.5,Implement current user sessions micro-services,09/02/2018 14:00,12/02/2018 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.4,Implement micro-services to handle current user and current session.,0,,
+15.6,Implement credentials management micro-services,12/02/2018 14:00,13/02/2018 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.5,Implement micro-services for managing user credentials according to current user rank and roles.,0,,
+15.7,Implement user group creation micro-service,13/02/2018 14:00,14/02/2018 13:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.6,Implement micro-services for the creation of user groups.,0,,
+15.8,Implement user listings micro services,15/02/2018 09:00,15/02/2018 18:00,1d,1d,100 %,,Milko Skofic,,,,,,,15.7,Implement micro-services for listing users,0,,
+16,Implement dynamic forms generation,16/02/2018 09:00,23/02/2018 18:00,1w 1d,1w 1d,0 %,,Milko Skofic,,,,,,,15,Implement JSX procedures to dynamically generate screen forms according to form definitions in the data dictionary.,0,,
+17,Test dynamic forms generation,01/03/2018 09:00,05/03/2018 18:00,3d,3d,0 %,,Milko Skofic,,,,,,,16,Test and refine dynamic forms generation. Add required additional data elements to the data dictionary.,0,,
+18,Implement user management screen forms and procedures,06/03/2018 09:00,12/03/2018 17:00,4d 7h,4d 7h,0 %,,,,,,,,,17,Implement user management forms using dynamic form generation procedures. Implement management procedures.,,,
+18.1,Implement signup,06/03/2018 09:00,07/03/2018 13:00,1d 4h,1d 4h,0 %,,Milko Skofic,,,,,,,,Implement signup form.,0,,
+18.2,Implement signup e-mail communication,07/03/2018 14:00,08/03/2018 13:00,1d,1d,0 %,,Milko Skofic,,,,,,,18.1,Implement procedures to send user registration invitation via e-mail.,0,,
+18.3,Implement signin,08/03/2018 14:00,09/03/2018 13:00,1d,1d,0 %,,Milko Skofic,,,,,,,18.2,"Implement e-mail response and signin form.
+Implement signin procedure.",0,,
+18.4,Clone signin for user data,09/03/2018 14:00,12/03/2018 13:00,1d,1d,0 %,,Milko Skofic,,,,,,,18.3,Clone and modify signin form for user profile management.,0,,
+18.5,Implement login,12/03/2018 14:00,12/03/2018 16:00,2h,2h,0 %,,Milko Skofic,,,,,,,18.4,Implement login form and procedure.,0,,
+18.6,Implement logout,12/03/2018 16:00,12/03/2018 17:00,1h,1h,0 %,,Milko Skofic,,,,,,,18.5,Implement logout procedure.,0,,
+19,Analysis of data dictionary management,12/03/2018 17:00,15/03/2018 17:00,3d,3d,100 %,,,,,,,13/02/2018 09:00,,18.6,Determine distinct components needed in database services and web-site services.,0,,
+20,Implementation of data dictionary micro-services,15/03/2018 17:00,09/04/2018 14:45,3w 1d 5h 45m,3w 1d,0 %,,,,,,,13/02/2018 09:00,,19,Implement data dictionary data exchange micro-services.,,,
+20.1,Implement terms management,15/03/2018 17:00,20/03/2018 17:00,3d,3d,0 %,,,,,,,13/02/2018 09:00,,,"Implement terms creation.
+Implement terms queries.
+Implement terms modifications.",0,,
+20.2,Implement descriptors management,20/03/2018 17:00,22/03/2018 17:00,2d,2d,0 %,,,,,,,13/02/2018 09:00,,20.1,"Implement descriptors creation.
+Implement descriptors queries.
+Implement descriptors modification.",0,,
+20.3,Implement controlled vocabulary management,22/03/2018 17:00,27/03/2018 17:00,3d,3d,0 %,,,,,,,13/02/2018 09:00,,20.2,"Implement controlled vocabulary management micro-services.
+Implement controlled vocabulary structure modification.",0,,
+20.4,Implement class and structures management,28/03/2018 14:45,29/03/2018 14:45,1d,1d,0 %,,,,,,,28/03/2018 14:45,,20.3,"Implement class and structures creation.
+Implement class and structure modification.",0,,
+20.5,Implement forms management,29/03/2018 14:45,02/04/2018 14:45,2d,2d,0 %,,,,,,,29/03/2018 14:45,,20.4,"Implement forms creation.
+Implement forms modification.
+Implement form types management (the different display options for data dictionary elements: list element, card, etc.).",0,,
+20.6,Implement edges management,02/04/2018 14:45,04/04/2018 14:45,2d,2d,0 %,,,,,,,13/02/2018 09:00,,20.5,Implement graph edge micro-services for relating terms and descriptors.,0,,
+20.7,Implement data dictionary queries,04/04/2018 14:45,09/04/2018 14:45,3d,3d,0 %,,,,,,,13/02/2018 09:00,,20.6,"Implement micro-services for querying the data dictionary elements.
+Terms, descriptors, controlled vocabularies, classes, structures and forms.",0,,
+21,Implement data dictionary management user interface,09/04/2018 14:45,23/04/2018 14:45,2w,2w,0 %,,,,,,,,,20.7,Implement user interface to manage data dictionary elements both as a dedicated task and as an embedded task in harmonisation activities.,,,
+21.1,Implement terms interface,09/04/2018 14:45,11/04/2018 14:45,2d,2d,0 %,,,,,,,,,,Implement terms main input and modification forms.,0,,
+21.2,Implement descriptors interface,11/04/2018 14:45,12/04/2018 14:45,1d,1d,0 %,,,,,,,,,21.1,Implement descriptors main input and modification forms.,0,,
+21.3,Implement controlled vocabulary interface,12/04/2018 14:45,16/04/2018 14:45,2d,2d,0 %,,,,,,,13/02/2018 09:00,,21.2,Implement controlled vocabulary main forms.,0,,
+21.4,Implement embedded forms,16/04/2018 14:45,18/04/2018 14:45,2d,2d,0 %,,,,,,,13/02/2018 09:00,,21.3,Implement the forms needed to manage the data dictionary from within the harmonisation activities.,0,,
+21.5,Implement data dictionary queries,18/04/2018 14:45,23/04/2018 14:45,3d,3d,0 %,,,,,,,13/02/2018 09:00,,21.4,"Implement main data dictionary query interface.
+Terms, descriptors, controlled vocabularies.
+Implement embedded query forms (from within data harmonisation activities).",0,,
+22,Implement study registration micro-services,23/04/2018 14:45,25/04/2018 14:45,2d,2d,0 %,,Milko Skofic,,,,,,,21.5,"Implement micro-services for study registration.
+Implement data dictionary elements for linking studies to other components in the application.
+Implement micro-services for the management of studies.",0,,
+23,Implement study annex documents registration micro-services,25/04/2018 14:45,27/04/2018 14:45,2d,2d,0 %,,Milko Skofic,,,,,,,22,"Implement micro-services for registration of study annex documents.
+Implement micro-services for the management of annex documents.",0,,
+24,Implement study annex upload forms,27/04/2018 14:45,30/04/2018 14:45,1d,1d,0 %,,Milko Skofic,,,,,,,23,"Implement forms for uploading study annex documents.
+Implement procedures for storing annex documents.",0,,
+25,Implement dataset parsing procedures,30/04/2018 14:45,01/05/2018 14:45,1d,1d,0 %,,Milko Skofic,,,,,,,24,"Implement procedures for parsing datasets into working collections.
+Initially handle CSV files.",0,,
+26,Implement dataset parsing and registration micro-services,01/05/2018 14:45,03/05/2018 14:45,2d,2d,0 %,,Milko Skofic,,,,,,,25,"Implement micro-services for creating working dataset collections.
+Implement dataset management micro-services.",0,,
+27,Analyse dataset harmonisation workflow,03/05/2018 14:45,08/05/2018 14:45,3d,3d,0 %,,,,,,,,,26,"This workflow applies to the process of displaying the dataset, selecting the data rows and assigning columns to existing data dictionary descriptors.",,,
+27.1,Perform analysis of dataset harmonisation workflow steps,03/05/2018 14:45,04/05/2018 14:45,1d,1d,0 %,,Milko Skofic,,,,,,,,Compile a list of distinct actions and responses involved in the harmonisation process.,0,,
+27.2,Breakdown steps into individual user interface interactions,04/05/2018 14:45,07/05/2018 14:45,1d,1d,0 %,,Milko Skofic,,,,,,,27.1,Convert workflow steps into individual user interface screens and interactions.,0,,
+27.3,Breakdown steps into individual data micro-services,07/05/2018 14:45,08/05/2018 14:45,1d,1d,0 %,,Milko Skofic,,,,,,,27.2,Compile list of required micro-services to manage the harmonisation process.,0,,
+28,Implement dataset harmonisation micro-services,08/05/2018 14:45,14/05/2018 11:45,3d 6h,3d 6h,0 %,,,,,,,,,27.3,Implement the micro-services needed for all harmonisation steps.,,,
+28.1,Implement original dataset request,08/05/2018 14:45,09/05/2018 11:45,6h,6h,0 %,,Milko Skofic,,,,,04/04/2018 15:00,,,Implement micro-services to request the original dataset full table.,0,,
+28.2,Implement original dataset header and data row selection,09/05/2018 11:45,10/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,05/04/2018 12:00,,28.1,Implement micro-services to record working data rows and header row.,0,,
+28.3,Implement automatic descriptor matching,10/05/2018 11:45,11/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,28.2,Implement micro-service to return matched columns according to contents of header row.,0,,
+28.4,Implement descriptor assignment,11/05/2018 11:45,14/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,28.3,Implement micro-service for assigning descriptors to columns.,0,,
+29,Implement dataset harmonisation user interface,14/05/2018 11:45,21/05/2018 11:45,1w,1w,0 %,,,,,,,,,28.4,Implement user interface elements needed for dataset harmonisation.,,,
+29.1,Implement original dataset table display,14/05/2018 11:45,15/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,,Implement screen to display first N rows of original dataset.,0,,
+29.2,Implement header and data rows selection interface,15/05/2018 11:45,16/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,29.1,Implement user interface elements to select header and data rows.,0,,
+29.3,Implement descriptor matching user interface,16/05/2018 11:45,17/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,29.2,Implement interface to display and validate automatic descriptor matches.,0,,
+29.4,Implement manual descriptor selection,17/05/2018 11:45,18/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,29.3,Implement interface to browse and select descriptors to be assigned to selected columns.,0,,
+29.5,Implement descriptor assignement registration.,18/05/2018 11:45,21/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,29.4,,0,,
+30,Compile list of data cleaning procedures,21/05/2018 11:45,22/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,29.5,Perform analysis of all required data cleaning procedures to be performed during and after harmonisation.,0,,
+31,Implement data cleaning micro-services,22/05/2018 11:45,29/05/2018 11:45,1w,1w,0 %,,,,,,,,,30,Implement micro-services needed for data cleaning procedures.,,,
+31.1,Implement validation procedures,22/05/2018 11:45,23/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,,"Implement micro-services for data validation.
+This will exclusively check if the data matches the expected data types.",0,,
+31.2,Implement categorical procedures,23/05/2018 11:45,24/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,31.1,"Implement micro-services to analyse and match categorical data.
+This applies to categorical data such as controlled vocabularies, it involves matching existing data to the descriptor and returning mismatches.",0,,
+31.3,Implement categorical update procedures,24/05/2018 11:45,25/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,31.2,"Implement micro-services to update existing standards by adding controlled vocabulary elements.
+Implement micro-services to update existing data by matching elements in the controlled vocabulary.",0,,
+31.4,Implement statistical data information,25/05/2018 11:45,28/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,31.3,Implement micro-services to display statistical summaries for quantitative data.,0,,
+31.5,Implement data correction procedures,28/05/2018 11:45,29/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,31.4,"Implement micro-services to correct dataset values.
+This involves displaying incorrect data (from the validation procedure) and providing the option of correcting invalid entries, or clearing invalid entries.",0,,
+32,Implement data cleaning interface,29/05/2018 11:45,05/06/2018 11:45,1w,1w,0 %,,,,,,,,,31.5,Implement interface for data cleaning operations.,,,
+32.1,Implement validation interface,29/05/2018 11:45,30/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,,Implement interface to display validation errors.,0,,
+32.2,Implement categorical validation interface,30/05/2018 11:45,31/05/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,32.1,Implement interface to display categorical data matching.,0,,
+32.3,Implement categorical update interface,31/05/2018 11:45,01/06/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,32.2,"Implement interface to add controlled vocabulary elements.
+Implement interface to update existing data by matching elements in the controlled vocabulary.",0,,
+32.4,Implement statistical data information interface,01/06/2018 11:45,04/06/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,32.3,Implement interface to display statistical summaries for quantitative data.,0,,
+32.5,Implement data correction interface,04/06/2018 11:45,05/06/2018 11:45,1d,1d,0 %,,Milko Skofic,,,,,,,32.4,Implement interface to correct dataset values.,0,,
+33,Implement dataset aggregation micro-services,05/06/2018 11:45,06/06/2018 11:45,1d,1d,0 %,,,,,,,13/02/2018 09:00,,32.5,"Implement micro-services for aggregating datasets.
+This involves adding the working collection to the aggregated datasets collection and removing the working collections and other related data.",0,,
+34,Implement dataset aggregation interface,06/06/2018 11:45,07/06/2018 11:45,1d,1d,0 %,,,,,,,13/02/2018 09:00,,33,"Implement interface to aggregate dataset.
+This mainly involves ascertaining the current user credentials and initiating the aggregation process.",0,,
+35,Implement data query micro-services,07/06/2018 11:45,08/06/2018 11:45,1d,1d,0 %,,,,,,,13/02/2018 09:00,,34,Implement micro-services for querying data.,0,,
+36,Perform validation tests,08/06/2018 11:45,13/06/2018 11:45,3d,3d,0 %,,,,,,,22/02/2018 09:00,,35,"Apply use cases.
+Apply non-standard use cases.
+Revise and fix eventual anomalies.",0,,
+37,Build installation kit,13/06/2018 11:45,15/06/2018 11:45,2d,2d,0 %,,,,,,,22/02/2018 09:00,,36,"Prepare installation kit.
+Test installation.
+Distribute to beta-testers.",0,,
+38,Feedback,15/06/2018 11:45,29/06/2018 11:45,2w,2w,0 %,,,,,,,22/02/2018 09:00,,37,"Get feedback and implement suggestions.
+Fix eventual bugs.
+Build final documentation.",0,,

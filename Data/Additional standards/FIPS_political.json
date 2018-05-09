@@ -1,0 +1,1831 @@
+[
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264125"), 
+    "Code" : "AF", 
+    "A3 Code" : "AFG", 
+    "N3 Code" : "004", 
+    "Name" : "AFGHANISTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264126"), 
+    "Code" : "AX", 
+    "Name" : "AKROTIRI SOVEREIGN BASE AREA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264127"), 
+    "Code" : "AL", 
+    "A3 Code" : "ALB", 
+    "N3 Code" : "008", 
+    "Name" : "ALBANIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264128"), 
+    "Code" : "AG", 
+    "A3 Code" : "DZA", 
+    "N3 Code" : "012", 
+    "Name" : "ALGERIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264129"), 
+    "Code" : "AQ", 
+    "A3 Code" : "ASM", 
+    "N3 Code" : "016", 
+    "Name" : "AMERICAN SAMOA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412a"), 
+    "Code" : "AN", 
+    "A3 Code" : "AND", 
+    "N3 Code" : "020", 
+    "Name" : "ANDORRA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412b"), 
+    "Code" : "AO", 
+    "A3 Code" : "AGO", 
+    "N3 Code" : "024", 
+    "Name" : "ANGOLA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412c"), 
+    "Code" : "AV", 
+    "A3 Code" : "AIA", 
+    "N3 Code" : "660", 
+    "Name" : "ANGUILLA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412d"), 
+    "Code" : "AY", 
+    "A3 Code" : "ATA", 
+    "N3 Code" : "010", 
+    "Name" : "ANTARCTICA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412e"), 
+    "Code" : "AC", 
+    "A3 Code" : "ATG", 
+    "N3 Code" : "028", 
+    "Name" : "ANTIGUA AND BARBUDA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426412f"), 
+    "Code" : "AR", 
+    "A3 Code" : "ARG", 
+    "N3 Code" : "032", 
+    "Name" : "ARGENTINA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264130"), 
+    "Code" : "AM", 
+    "A3 Code" : "ARM", 
+    "N3 Code" : "051", 
+    "Name" : "ARMENIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264131"), 
+    "Code" : "AA", 
+    "A3 Code" : "ABW", 
+    "N3 Code" : "533", 
+    "Name" : "ARUBA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264132"), 
+    "Code" : "AT", 
+    "Name" : "ASHMORE AND CARTIER ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264133"), 
+    "Code" : "AS", 
+    "A3 Code" : "AUS", 
+    "N3 Code" : "036", 
+    "Name" : "AUSTRALIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264134"), 
+    "Code" : "AU", 
+    "A3 Code" : "AUT", 
+    "N3 Code" : "040", 
+    "Name" : "AUSTRIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264135"), 
+    "Code" : "AJ", 
+    "A3 Code" : "AZE", 
+    "N3 Code" : "031", 
+    "Name" : "AZERBAIJAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264136"), 
+    "Code" : "BF", 
+    "A3 Code" : "BHS", 
+    "N3 Code" : "044", 
+    "Name" : "BAHAMAS, THE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264137"), 
+    "Code" : "BA", 
+    "A3 Code" : "BHR", 
+    "N3 Code" : "048", 
+    "Name" : "BAHRAIN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264138"), 
+    "Code" : "FQ", 
+    "Name" : "BAKER ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264139"), 
+    "Code" : "BG", 
+    "A3 Code" : "BGD", 
+    "N3 Code" : "050", 
+    "Name" : "BANGLADESH"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413a"), 
+    "Code" : "BB", 
+    "A3 Code" : "BRB", 
+    "N3 Code" : "052", 
+    "Name" : "BARBADOS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413b"), 
+    "Code" : "BS", 
+    "Name" : "BASSAS DA INDIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413c"), 
+    "Code" : "BO", 
+    "A3 Code" : "BLR", 
+    "N3 Code" : "112", 
+    "Name" : "BELARUS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413d"), 
+    "Code" : "BE", 
+    "A3 Code" : "BEL", 
+    "N3 Code" : "056", 
+    "Name" : "BELGIUM"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413e"), 
+    "Code" : "BH", 
+    "A3 Code" : "BLZ", 
+    "N3 Code" : "084", 
+    "Name" : "BELIZE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426413f"), 
+    "Code" : "BN", 
+    "A3 Code" : "BEN", 
+    "N3 Code" : "204", 
+    "Name" : "BENIN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264140"), 
+    "Code" : "BD", 
+    "A3 Code" : "BMU", 
+    "N3 Code" : "060", 
+    "Name" : "BERMUDA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264141"), 
+    "Code" : "BT", 
+    "A3 Code" : "BTN", 
+    "N3 Code" : "064", 
+    "Name" : "BHUTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264142"), 
+    "Code" : "BL", 
+    "A3 Code" : "BOL", 
+    "N3 Code" : "068", 
+    "Name" : "BOLIVIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264143"), 
+    "Code" : "BK", 
+    "A3 Code" : "BIH", 
+    "N3 Code" : "070", 
+    "Name" : "BOSNIA AND HERZEGOVINA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264144"), 
+    "Code" : "BC", 
+    "A3 Code" : "BWA", 
+    "N3 Code" : "072", 
+    "Name" : "BOTSWANA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264145"), 
+    "Code" : "BV", 
+    "A3 Code" : "BVT", 
+    "N3 Code" : "074", 
+    "Name" : "BOUVET ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264146"), 
+    "Code" : "BR", 
+    "A3 Code" : "BRA", 
+    "N3 Code" : "076", 
+    "Name" : "BRAZIL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264147"), 
+    "Code" : "IO", 
+    "A3 Code" : "IOT", 
+    "N3 Code" : "086", 
+    "Name" : "BRITISH INDIAN OCEAN TERRITORY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264148"), 
+    "Code" : "BX", 
+    "A3 Code" : "BRN", 
+    "N3 Code" : "096", 
+    "Name" : "BRUNEI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264149"), 
+    "Code" : "BU", 
+    "A3 Code" : "BGR", 
+    "N3 Code" : "100", 
+    "Name" : "BULGARIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414a"), 
+    "Code" : "UV", 
+    "A3 Code" : "BFA", 
+    "N3 Code" : "854", 
+    "Name" : "BURKINA FASO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414b"), 
+    "Code" : "BM", 
+    "A3 Code" : "MMR", 
+    "N3 Code" : "104", 
+    "Name" : "BURMA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414c"), 
+    "Code" : "BY", 
+    "A3 Code" : "BDI", 
+    "N3 Code" : "108", 
+    "Name" : "BURUNDI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414d"), 
+    "Code" : "CB", 
+    "A3 Code" : "KHM", 
+    "N3 Code" : "116", 
+    "Name" : "CAMBODIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414e"), 
+    "Code" : "CM", 
+    "A3 Code" : "CMR", 
+    "N3 Code" : "120", 
+    "Name" : "CAMEROON"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426414f"), 
+    "Code" : "CA", 
+    "A3 Code" : "CAN", 
+    "N3 Code" : "124", 
+    "Name" : "CANADA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264150"), 
+    "Code" : "CV", 
+    "A3 Code" : "CPV", 
+    "N3 Code" : "132", 
+    "Name" : "CAPE VERDE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264151"), 
+    "Code" : "CJ", 
+    "A3 Code" : "CYM", 
+    "N3 Code" : "136", 
+    "Name" : "CAYMAN ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264152"), 
+    "Code" : "CT", 
+    "A3 Code" : "CAF", 
+    "N3 Code" : "140", 
+    "Name" : "CENTRAL AFRICAN REPUBLIC"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264153"), 
+    "Code" : "CD", 
+    "A3 Code" : "TCD", 
+    "N3 Code" : "148", 
+    "Name" : "CHAD"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264154"), 
+    "Code" : "CI", 
+    "A3 Code" : "CHL", 
+    "N3 Code" : "152", 
+    "Name" : "CHILE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264155"), 
+    "Code" : "CH", 
+    "A3 Code" : "CHN", 
+    "N3 Code" : "156", 
+    "Name" : "CHINA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264156"), 
+    "Code" : "KT", 
+    "A3 Code" : "CXR", 
+    "N3 Code" : "162", 
+    "Name" : "CHRISTMAS ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264157"), 
+    "Code" : "IP", 
+    "Name" : "CLIPPERTON ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264158"), 
+    "Code" : "CK", 
+    "A3 Code" : "CCK", 
+    "N3 Code" : "166", 
+    "Name" : "COCOS (KEELING) ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264159"), 
+    "Code" : "CO", 
+    "A3 Code" : "COL", 
+    "N3 Code" : "170", 
+    "Name" : "COLOMBIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415a"), 
+    "Code" : "CN", 
+    "A3 Code" : "COM", 
+    "N3 Code" : "174", 
+    "Name" : "COMOROS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415b"), 
+    "Code" : "CF", 
+    "A3 Code" : "COG", 
+    "N3 Code" : "180", 
+    "Name" : "CONGO (BRAZZAVILLE)"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415c"), 
+    "Code" : "CG", 
+    "A3 Code" : "COD", 
+    "N3 Code" : "178", 
+    "Name" : "CONGO (KINSHASA)"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415d"), 
+    "Code" : "CW", 
+    "A3 Code" : "COK", 
+    "N3 Code" : "184", 
+    "Name" : "COOK ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415e"), 
+    "Code" : "CR", 
+    "Name" : "CORAL SEA ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426415f"), 
+    "Code" : "CS", 
+    "A3 Code" : "CRI", 
+    "N3 Code" : "188", 
+    "Name" : "COSTA RICA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264160"), 
+    "Code" : "IV", 
+    "A3 Code" : "CIV", 
+    "N3 Code" : "384", 
+    "Name" : "CÔTE D’ IVOIRE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264161"), 
+    "Code" : "HR", 
+    "A3 Code" : "HRV", 
+    "N3 Code" : "191", 
+    "Name" : "CROATIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264162"), 
+    "Code" : "CU", 
+    "A3 Code" : "CUB", 
+    "N3 Code" : "192", 
+    "Name" : "CUBA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264163"), 
+    "Code" : "CY", 
+    "A3 Code" : "CYP", 
+    "N3 Code" : "196", 
+    "Name" : "CYPRUS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264164"), 
+    "Code" : "EZ", 
+    "A3 Code" : "CZE", 
+    "N3 Code" : "203", 
+    "Name" : "CZECH REPUBLIC"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264165"), 
+    "Code" : "DA", 
+    "A3 Code" : "DNK", 
+    "N3 Code" : "208", 
+    "Name" : "DENMARK"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264166"), 
+    "Code" : "DX", 
+    "Name" : "DHEKELIA SOVEREIGN BASE AREA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264167"), 
+    "Code" : "DJ", 
+    "A3 Code" : "DJI", 
+    "N3 Code" : "262", 
+    "Name" : "DJIBOUTI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264168"), 
+    "Code" : "DO", 
+    "A3 Code" : "DMA", 
+    "N3 Code" : "212", 
+    "Name" : "DOMINICA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264169"), 
+    "Code" : "DR", 
+    "A3 Code" : "DOM", 
+    "N3 Code" : "214", 
+    "Name" : "DOMINICAN REPUBLIC"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416a"), 
+    "Code" : "EC", 
+    "A3 Code" : "ECU", 
+    "N3 Code" : "218", 
+    "Name" : "ECUADOR"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416b"), 
+    "Code" : "EG", 
+    "A3 Code" : "EGY", 
+    "N3 Code" : "818", 
+    "Name" : "EGYPT"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416c"), 
+    "Code" : "ES", 
+    "A3 Code" : "SLV", 
+    "N3 Code" : "222", 
+    "Name" : "EL SALVADOR"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416d"), 
+    "Code" : "EK", 
+    "A3 Code" : "GNQ", 
+    "N3 Code" : "226", 
+    "Name" : "EQUATORIAL GUINEA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416e"), 
+    "Code" : "ER", 
+    "A3 Code" : "ERI", 
+    "N3 Code" : "232", 
+    "Name" : "ERITREA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426416f"), 
+    "Code" : "EN", 
+    "A3 Code" : "EST", 
+    "N3 Code" : "233", 
+    "Name" : "ESTONIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264170"), 
+    "Code" : "ET", 
+    "A3 Code" : "ETH", 
+    "N3 Code" : "231", 
+    "Name" : "ETHIOPIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264171"), 
+    "Code" : "PJ", 
+    "Name" : "ETOROFU, HABOMAI, KUNASHIRI, AND SHIKOTAN ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264172"), 
+    "Code" : "EU", 
+    "Name" : "EUROPA ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264173"), 
+    "Code" : "FK", 
+    "A3 Code" : "FLK", 
+    "N3 Code" : "238", 
+    "Name" : "FALKLAND ISLANDS (ISLAS MALVINAS)"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264174"), 
+    "Code" : "FO", 
+    "A3 Code" : "FRO", 
+    "N3 Code" : "234", 
+    "Name" : "FAROE ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264175"), 
+    "Code" : "FJ", 
+    "A3 Code" : "FJI", 
+    "N3 Code" : "242", 
+    "Name" : "FIJI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264176"), 
+    "Code" : "FI", 
+    "A3 Code" : "FIN", 
+    "N3 Code" : "246", 
+    "Name" : "FINLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264177"), 
+    "Code" : "FR", 
+    "A3 Code" : "FRA", 
+    "N3 Code" : "250", 
+    "Name" : "FRANCE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264178"), 
+    "Code" : "FG", 
+    "A3 Code" : "GUF", 
+    "N3 Code" : "254", 
+    "Name" : "FRENCH GUIANA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264179"), 
+    "Code" : "FP", 
+    "A3 Code" : "PYF", 
+    "N3 Code" : "258", 
+    "Name" : "FRENCH POLYNESIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417a"), 
+    "Code" : "FS", 
+    "A3 Code" : "ATF", 
+    "N3 Code" : "260", 
+    "Name" : "FRENCH SOUTHERN AND ANTARCTIC LANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417b"), 
+    "Code" : "GB", 
+    "A3 Code" : "GAB", 
+    "N3 Code" : "266", 
+    "Name" : "GABON"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417c"), 
+    "Code" : "GA", 
+    "A3 Code" : "GMB", 
+    "N3 Code" : "270", 
+    "Name" : "GAMBIA, THE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417d"), 
+    "Code" : "GZ", 
+    "Name" : "GAZA STRIP"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417e"), 
+    "Code" : "GG", 
+    "A3 Code" : "GEO", 
+    "N3 Code" : "268", 
+    "Name" : "GEORGIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426417f"), 
+    "Code" : "GM", 
+    "A3 Code" : "DEU", 
+    "N3 Code" : "276", 
+    "Name" : "GERMANY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264180"), 
+    "Code" : "GH", 
+    "A3 Code" : "GHA", 
+    "N3 Code" : "288", 
+    "Name" : "GHANA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264181"), 
+    "Code" : "GI", 
+    "A3 Code" : "GIB", 
+    "N3 Code" : "292", 
+    "Name" : "GIBRALTAR"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264182"), 
+    "Code" : "GO", 
+    "Name" : "GLORIOSO ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264183"), 
+    "Code" : "GR", 
+    "A3 Code" : "GRC", 
+    "N3 Code" : "300", 
+    "Name" : "GREECE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264184"), 
+    "Code" : "GL", 
+    "A3 Code" : "GRL", 
+    "N3 Code" : "304", 
+    "Name" : "GREENLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264185"), 
+    "Code" : "GJ", 
+    "A3 Code" : "GRD", 
+    "N3 Code" : "308", 
+    "Name" : "GRENADA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264186"), 
+    "Code" : "GP", 
+    "A3 Code" : "GLP", 
+    "N3 Code" : "312", 
+    "Name" : "GUADELOUPE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264187"), 
+    "Code" : "GQ", 
+    "A3 Code" : "GUM", 
+    "N3 Code" : "316", 
+    "Name" : "GUAM"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264188"), 
+    "Code" : "GT", 
+    "A3 Code" : "GTM", 
+    "N3 Code" : "320", 
+    "Name" : "GUATEMALA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264189"), 
+    "Code" : "GK", 
+    "A3 Code" : "GGY", 
+    "N3 Code" : "833", 
+    "Name" : "GUERNSEY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418a"), 
+    "Code" : "GV", 
+    "A3 Code" : "GIN", 
+    "N3 Code" : "324", 
+    "Name" : "GUINEA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418b"), 
+    "Code" : "PU", 
+    "A3 Code" : "GNB", 
+    "N3 Code" : "624", 
+    "Name" : "GUINEA-BISSAU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418c"), 
+    "Code" : "GY", 
+    "A3 Code" : "GUY", 
+    "N3 Code" : "328", 
+    "Name" : "GUYANA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418d"), 
+    "Code" : "HA", 
+    "A3 Code" : "HTI", 
+    "N3 Code" : "332", 
+    "Name" : "HAITI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418e"), 
+    "Code" : "HM", 
+    "A3 Code" : "HMD", 
+    "N3 Code" : "334", 
+    "Name" : "HEARD ISLAND AND MCDONALD  ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426418f"), 
+    "Code" : "HO", 
+    "A3 Code" : "HND", 
+    "N3 Code" : "340", 
+    "Name" : "HONDURAS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264190"), 
+    "Code" : "HK", 
+    "A3 Code" : "HKG", 
+    "N3 Code" : "344", 
+    "Name" : "HONG KONG"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264191"), 
+    "Code" : "HQ", 
+    "Name" : "HOWLAND ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264192"), 
+    "Code" : "HU", 
+    "A3 Code" : "HUN", 
+    "N3 Code" : "348", 
+    "Name" : "HUNGARY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264193"), 
+    "Code" : "IC", 
+    "A3 Code" : "ISL", 
+    "N3 Code" : "352", 
+    "Name" : "ICELAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264194"), 
+    "Code" : "IN", 
+    "A3 Code" : "IND", 
+    "N3 Code" : "356", 
+    "Name" : "INDIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264195"), 
+    "Code" : "ID", 
+    "A3 Code" : "IDN", 
+    "N3 Code" : "360", 
+    "Name" : "INDONESIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264196"), 
+    "Code" : "IR", 
+    "A3 Code" : "IRN", 
+    "N3 Code" : "364", 
+    "Name" : "IRAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264197"), 
+    "Code" : "IZ", 
+    "A3 Code" : "IRQ", 
+    "N3 Code" : "368", 
+    "Name" : "IRAQ"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264198"), 
+    "Code" : "EI", 
+    "A3 Code" : "IRL", 
+    "N3 Code" : "372", 
+    "Name" : "IRELAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264199"), 
+    "Code" : "IM", 
+    "A3 Code" : "IMN", 
+    "N3 Code" : "833", 
+    "Name" : "ISLE OF MAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419a"), 
+    "Code" : "IS", 
+    "A3 Code" : "ISR", 
+    "N3 Code" : "376", 
+    "Name" : "ISRAEL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419b"), 
+    "Code" : "IT", 
+    "A3 Code" : "ITA", 
+    "N3 Code" : "380", 
+    "Name" : "ITALY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419c"), 
+    "Code" : "JM", 
+    "A3 Code" : "JAM", 
+    "N3 Code" : "388", 
+    "Name" : "JAMAICA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419d"), 
+    "Code" : "JN", 
+    "Name" : "JAN MAYEN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419e"), 
+    "Code" : "JA", 
+    "A3 Code" : "JPN", 
+    "N3 Code" : "392", 
+    "Name" : "JAPAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426419f"), 
+    "Code" : "DQ", 
+    "Name" : "JARVIS ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a0"), 
+    "Code" : "JE", 
+    "A3 Code" : "JEY", 
+    "N3 Code" : "832", 
+    "Name" : "JERSEY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a1"), 
+    "Code" : "JQ", 
+    "Name" : "JOHNSTON ATOLL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a2"), 
+    "Code" : "JO", 
+    "A3 Code" : "JOR", 
+    "N3 Code" : "400", 
+    "Name" : "JORDAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a3"), 
+    "Code" : "JU", 
+    "Name" : "JUAN DE NOVA ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a4"), 
+    "Code" : "KZ", 
+    "A3 Code" : "KAZ", 
+    "N3 Code" : "398", 
+    "Name" : "KAZAKHSTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a5"), 
+    "Code" : "KE", 
+    "A3 Code" : "KEN", 
+    "N3 Code" : "404", 
+    "Name" : "KENYA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a6"), 
+    "Code" : "KQ", 
+    "Name" : "KINGMAN REEF"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a7"), 
+    "Code" : "KR", 
+    "A3 Code" : "KIR", 
+    "N3 Code" : "296", 
+    "Name" : "KIRIBATI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a8"), 
+    "Code" : "KN", 
+    "A3 Code" : "PRK", 
+    "N3 Code" : "408", 
+    "Name" : "KOREA, NORTH"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641a9"), 
+    "Code" : "KS", 
+    "A3 Code" : "KOR", 
+    "N3 Code" : "410", 
+    "Name" : "KOREA, SOUTH"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641aa"), 
+    "Code" : "KV", 
+    "Name" : "KOSOVO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ab"), 
+    "Code" : "KU", 
+    "A3 Code" : "KWT", 
+    "N3 Code" : "414", 
+    "Name" : "KUWAIT"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ac"), 
+    "Code" : "KG", 
+    "A3 Code" : "KGZ", 
+    "N3 Code" : "417", 
+    "Name" : "KYRGYZSTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ad"), 
+    "Code" : "LA", 
+    "A3 Code" : "LAO", 
+    "N3 Code" : "418", 
+    "Name" : "LAOS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ae"), 
+    "Code" : "LG", 
+    "A3 Code" : "LVA", 
+    "N3 Code" : "428", 
+    "Name" : "LATVIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641af"), 
+    "Code" : "LE", 
+    "A3 Code" : "LBN", 
+    "N3 Code" : "422", 
+    "Name" : "LEBANON"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b0"), 
+    "Code" : "LT", 
+    "A3 Code" : "LSO", 
+    "N3 Code" : "426", 
+    "Name" : "LESOTHO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b1"), 
+    "Code" : "LI", 
+    "A3 Code" : "LBR", 
+    "N3 Code" : "430", 
+    "Name" : "LIBERIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b2"), 
+    "Code" : "LY", 
+    "A3 Code" : "LBY", 
+    "N3 Code" : "434", 
+    "Name" : "LIBYA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b3"), 
+    "Code" : "LS", 
+    "A3 Code" : "LIE", 
+    "N3 Code" : "438", 
+    "Name" : "LIECHTENSTEIN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b4"), 
+    "Code" : "LH", 
+    "A3 Code" : "LTU", 
+    "N3 Code" : "440", 
+    "Name" : "LITHUANIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b5"), 
+    "Code" : "LU", 
+    "A3 Code" : "LUX", 
+    "N3 Code" : "442", 
+    "Name" : "LUXEMBOURG"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b6"), 
+    "Code" : "MC", 
+    "A3 Code" : "MAC", 
+    "N3 Code" : "446", 
+    "Name" : "MACAU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b7"), 
+    "Code" : "MK", 
+    "A3 Code" : "MKD", 
+    "N3 Code" : "807", 
+    "Name" : "MACEDONIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b8"), 
+    "Code" : "MA", 
+    "A3 Code" : "MDG", 
+    "N3 Code" : "450", 
+    "Name" : "MADAGASCAR"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641b9"), 
+    "Code" : "MI", 
+    "A3 Code" : "MWI", 
+    "N3 Code" : "454", 
+    "Name" : "MALAWI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ba"), 
+    "Code" : "MY", 
+    "A3 Code" : "MYS", 
+    "N3 Code" : "458", 
+    "Name" : "MALAYSIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641bb"), 
+    "Code" : "MV", 
+    "A3 Code" : "MDV", 
+    "N3 Code" : "462", 
+    "Name" : "MALDIVES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641bc"), 
+    "Code" : "ML", 
+    "A3 Code" : "MLI", 
+    "N3 Code" : "466", 
+    "Name" : "MALI"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641bd"), 
+    "Code" : "MT", 
+    "A3 Code" : "MLT", 
+    "N3 Code" : "470", 
+    "Name" : "MALTA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641be"), 
+    "Code" : "RM", 
+    "A3 Code" : "MHL", 
+    "N3 Code" : "584", 
+    "Name" : "MARSHALL ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641bf"), 
+    "Code" : "MB", 
+    "A3 Code" : "MTQ", 
+    "N3 Code" : "474", 
+    "Name" : "MARTINIQUE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c0"), 
+    "Code" : "MR", 
+    "A3 Code" : "MRT", 
+    "N3 Code" : "478", 
+    "Name" : "MAURITANIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c1"), 
+    "Code" : "MP", 
+    "A3 Code" : "MUS", 
+    "N3 Code" : "478", 
+    "Name" : "MAURITIUS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c2"), 
+    "Code" : "MF", 
+    "A3 Code" : "MYT", 
+    "N3 Code" : "175", 
+    "Name" : "MAYOTTE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c3"), 
+    "Code" : "MX", 
+    "A3 Code" : "MEX", 
+    "N3 Code" : "484", 
+    "Name" : "MEXICO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c4"), 
+    "Code" : "FM", 
+    "A3 Code" : "FSM", 
+    "N3 Code" : "583", 
+    "Name" : "MICRONESIA, FEDERATED STATES OF"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c5"), 
+    "Code" : "MQ", 
+    "Name" : "MIDWAY ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c6"), 
+    "Code" : "MD", 
+    "A3 Code" : "MDA", 
+    "N3 Code" : "498", 
+    "Name" : "MOLDOVA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c7"), 
+    "Code" : "MN", 
+    "A3 Code" : "MCO", 
+    "N3 Code" : "492", 
+    "Name" : "MONACO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c8"), 
+    "Code" : "MG", 
+    "A3 Code" : "MNG", 
+    "N3 Code" : "496", 
+    "Name" : "MONGOLIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641c9"), 
+    "Code" : "MJ", 
+    "A3 Code" : "MNE", 
+    "N3 Code" : "499", 
+    "Name" : "MONTENEGRO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ca"), 
+    "Code" : "MH", 
+    "A3 Code" : "MSR", 
+    "N3 Code" : "500", 
+    "Name" : "MONTSERRAT"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641cb"), 
+    "Code" : "MO", 
+    "A3 Code" : "MAR", 
+    "N3 Code" : "504", 
+    "Name" : "MOROCCO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641cc"), 
+    "Code" : "MZ", 
+    "A3 Code" : "MOZ", 
+    "N3 Code" : "508", 
+    "Name" : "MOZAMBIQUE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641cd"), 
+    "Code" : "WA", 
+    "A3 Code" : "NAM", 
+    "N3 Code" : "516", 
+    "Name" : "NAMIBIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ce"), 
+    "Code" : "NR", 
+    "A3 Code" : "NRU", 
+    "N3 Code" : "520", 
+    "Name" : "NAURU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641cf"), 
+    "Code" : "BQ", 
+    "Name" : "NAVASSA ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d0"), 
+    "Code" : "NP", 
+    "A3 Code" : "NPL", 
+    "N3 Code" : "524", 
+    "Name" : "NEPAL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d1"), 
+    "Code" : "NL", 
+    "A3 Code" : "NLD", 
+    "N3 Code" : "528", 
+    "Name" : "NETHERLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d2"), 
+    "Code" : "NT", 
+    "A3 Code" : "ANT", 
+    "N3 Code" : "530", 
+    "Name" : "NETHERLANDS ANTILLES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d3"), 
+    "Code" : "NC", 
+    "A3 Code" : "NCL", 
+    "N3 Code" : "540", 
+    "Name" : "NEW CALEDONIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d4"), 
+    "Code" : "NZ", 
+    "A3 Code" : "NZL", 
+    "N3 Code" : "554", 
+    "Name" : "NEW ZEALAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d5"), 
+    "Code" : "NU", 
+    "A3 Code" : "NIC", 
+    "N3 Code" : "558", 
+    "Name" : "NICARAGUA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d6"), 
+    "Code" : "NG", 
+    "A3 Code" : "NER", 
+    "N3 Code" : "562", 
+    "Name" : "NIGER"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d7"), 
+    "Code" : "NI", 
+    "A3 Code" : "NGA", 
+    "N3 Code" : "566", 
+    "Name" : "NIGERIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d8"), 
+    "Code" : "NE", 
+    "A3 Code" : "NIU", 
+    "N3 Code" : "570", 
+    "Name" : "NIUE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641d9"), 
+    "Code" : "NF", 
+    "A3 Code" : "NFK", 
+    "N3 Code" : "580", 
+    "Name" : "NORFOLK ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641da"), 
+    "Code" : "CQ", 
+    "A3 Code" : "MNP", 
+    "N3 Code" : "580", 
+    "Name" : "NORTHERN MARIANA ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641db"), 
+    "Code" : "NO", 
+    "A3 Code" : "NOR", 
+    "N3 Code" : "578", 
+    "Name" : "NORWAY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641dc"), 
+    "Code" : "MU", 
+    "A3 Code" : "OMN", 
+    "N3 Code" : "512", 
+    "Name" : "OMAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641dd"), 
+    "Code" : "PK", 
+    "A3 Code" : "PAK", 
+    "N3 Code" : "586", 
+    "Name" : "PAKISTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641de"), 
+    "Code" : "PS", 
+    "A3 Code" : "PLW", 
+    "N3 Code" : "585", 
+    "Name" : "PALAU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641df"), 
+    "Code" : "LQ", 
+    "Name" : "PALMYRA ATOLL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e0"), 
+    "Code" : "PM", 
+    "A3 Code" : "PAN", 
+    "N3 Code" : "591", 
+    "Name" : "PANAMA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e1"), 
+    "Code" : "PP", 
+    "A3 Code" : "PNG", 
+    "N3 Code" : "598", 
+    "Name" : "PAPUA NEW GUINEA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e2"), 
+    "Code" : "PF", 
+    "Name" : "PARACEL ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e3"), 
+    "Code" : "PA", 
+    "A3 Code" : "PRY", 
+    "N3 Code" : "600", 
+    "Name" : "PARAGUAY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e4"), 
+    "Code" : "PE", 
+    "A3 Code" : "PER", 
+    "N3 Code" : "604", 
+    "Name" : "PERU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e5"), 
+    "Code" : "RP", 
+    "A3 Code" : "PHL", 
+    "N3 Code" : "608", 
+    "Name" : "PHILIPPINES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e6"), 
+    "Code" : "PC", 
+    "A3 Code" : "PCN", 
+    "N3 Code" : "612", 
+    "Name" : "PITCAIRN ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e7"), 
+    "Code" : "PL", 
+    "A3 Code" : "POL", 
+    "N3 Code" : "616", 
+    "Name" : "POLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e8"), 
+    "Code" : "PO", 
+    "A3 Code" : "PRT", 
+    "N3 Code" : "620", 
+    "Name" : "PORTUGAL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641e9"), 
+    "Code" : "RQ", 
+    "A3 Code" : "PRI", 
+    "N3 Code" : "630", 
+    "Name" : "PUERTO RICO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ea"), 
+    "Code" : "QA", 
+    "A3 Code" : "QAT", 
+    "N3 Code" : "634", 
+    "Name" : "QATAR"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641eb"), 
+    "Code" : "RE", 
+    "A3 Code" : "REU", 
+    "N3 Code" : "638", 
+    "Name" : "REUNION"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ec"), 
+    "Code" : "RO", 
+    "A3 Code" : "ROU", 
+    "N3 Code" : "642", 
+    "Name" : "ROMANIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ed"), 
+    "Code" : "RS", 
+    "A3 Code" : "RUS", 
+    "N3 Code" : "643", 
+    "Name" : "RUSSIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ee"), 
+    "Code" : "RW", 
+    "A3 Code" : "RWA", 
+    "N3 Code" : "646", 
+    "Name" : "RWANDA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ef"), 
+    "Code" : "TB", 
+    "A3 Code" : "BLM", 
+    "N3 Code" : "652", 
+    "Name" : "SAINT BARTHELEMY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f0"), 
+    "Code" : "SH", 
+    "A3 Code" : "SHN", 
+    "N3 Code" : "654", 
+    "Name" : "SAINT HELENA, ASCENSION, AND TRISTAN DA CUNHA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f1"), 
+    "Code" : "SC", 
+    "A3 Code" : "KNA", 
+    "N3 Code" : "659", 
+    "Name" : "SAINT KITTS AND NEVIS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f2"), 
+    "Code" : "ST", 
+    "A3 Code" : "LCA", 
+    "N3 Code" : "662", 
+    "Name" : "SAINT LUCIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f3"), 
+    "Code" : "RN", 
+    "A3 Code" : "MAF", 
+    "N3 Code" : "663", 
+    "Name" : "SAINT MARTIN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f4"), 
+    "Code" : "SB", 
+    "A3 Code" : "SPM", 
+    "N3 Code" : "666", 
+    "Name" : "SAINT PIERRE AND MIQUELON"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f5"), 
+    "Code" : "VC", 
+    "A3 Code" : "VCT", 
+    "N3 Code" : "670", 
+    "Name" : "SAINT VINCENT AND THE GRENADINES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f6"), 
+    "Code" : "WS", 
+    "A3 Code" : "WSM", 
+    "N3 Code" : "882", 
+    "Name" : "SAMOA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f7"), 
+    "Code" : "SM", 
+    "A3 Code" : "SMR", 
+    "N3 Code" : "674", 
+    "Name" : "SAN MARINO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f8"), 
+    "Code" : "TP", 
+    "A3 Code" : "STP", 
+    "N3 Code" : "678", 
+    "Name" : "SAO TOME AND PRINCIPE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641f9"), 
+    "Code" : "SA", 
+    "A3 Code" : "SAU", 
+    "N3 Code" : "682", 
+    "Name" : "SAUDI ARABIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641fa"), 
+    "Code" : "SG", 
+    "A3 Code" : "SEN", 
+    "N3 Code" : "686", 
+    "Name" : "SENEGAL"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641fb"), 
+    "Code" : "RI", 
+    "A3 Code" : "SRB", 
+    "N3 Code" : "891", 
+    "Name" : "SERBIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641fc"), 
+    "Code" : "SE", 
+    "A3 Code" : "SYC", 
+    "N3 Code" : "690", 
+    "Name" : "SEYCHELLES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641fd"), 
+    "Code" : "SL", 
+    "A3 Code" : "SLE", 
+    "N3 Code" : "694", 
+    "Name" : "SIERRA LEONE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641fe"), 
+    "Code" : "SN", 
+    "A3 Code" : "SGP", 
+    "N3 Code" : "702", 
+    "Name" : "SINGAPORE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d26394604742641ff"), 
+    "Code" : "LO", 
+    "A3 Code" : "SVK", 
+    "N3 Code" : "703", 
+    "Name" : "SLOVAKIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264200"), 
+    "Code" : "SI", 
+    "A3 Code" : "SVN", 
+    "N3 Code" : "705", 
+    "Name" : "SLOVENIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264201"), 
+    "Code" : "BP", 
+    "A3 Code" : "SLB", 
+    "N3 Code" : "90", 
+    "Name" : "SOLOMON ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264202"), 
+    "Code" : "SO", 
+    "A3 Code" : "SOM", 
+    "N3 Code" : "706", 
+    "Name" : "SOMALIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264203"), 
+    "Code" : "SF", 
+    "A3 Code" : "ZAF", 
+    "N3 Code" : "710", 
+    "Name" : "SOUTH AFRICA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264204"), 
+    "Code" : "SX", 
+    "A3 Code" : "SGS", 
+    "N3 Code" : "239", 
+    "Name" : "SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264205"), 
+    "Code" : "SP", 
+    "A3 Code" : "ESP", 
+    "N3 Code" : "724", 
+    "Name" : "SPAIN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264206"), 
+    "Code" : "PG", 
+    "Name" : "SPRATLY ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264207"), 
+    "Code" : "CE", 
+    "A3 Code" : "LKA", 
+    "N3 Code" : "144", 
+    "Name" : "SRI LANKA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264208"), 
+    "Code" : "SU", 
+    "A3 Code" : "SDN", 
+    "N3 Code" : "736", 
+    "Name" : "SUDAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264209"), 
+    "Code" : "NS", 
+    "A3 Code" : "SUR", 
+    "N3 Code" : "740", 
+    "Name" : "SURINAME"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420a"), 
+    "Code" : "SV", 
+    "Name" : "SVALBARD"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420b"), 
+    "Code" : "WZ", 
+    "A3 Code" : "SWZ", 
+    "N3 Code" : "748", 
+    "Name" : "SWAZILAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420c"), 
+    "Code" : "SW", 
+    "A3 Code" : "SWE", 
+    "N3 Code" : "752", 
+    "Name" : "SWEDEN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420d"), 
+    "Code" : "SZ", 
+    "A3 Code" : "CHE", 
+    "N3 Code" : "756", 
+    "Name" : "SWITZERLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420e"), 
+    "Code" : "SY", 
+    "A3 Code" : "SYR", 
+    "N3 Code" : "760", 
+    "Name" : "SYRIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426420f"), 
+    "Code" : "TW", 
+    "A3 Code" : "TWN", 
+    "N3 Code" : "158", 
+    "Name" : "TAIWAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264210"), 
+    "Code" : "TI", 
+    "A3 Code" : "TJK", 
+    "N3 Code" : "762", 
+    "Name" : "TAJIKISTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264211"), 
+    "Code" : "TZ", 
+    "A3 Code" : "TZA", 
+    "N3 Code" : "834", 
+    "Name" : "TANZANIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264212"), 
+    "Code" : "TH", 
+    "A3 Code" : "THA", 
+    "N3 Code" : "764", 
+    "Name" : "THAILAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264213"), 
+    "Code" : "TT", 
+    "A3 Code" : "TLS", 
+    "N3 Code" : "626", 
+    "Name" : "TIMOR-LESTE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264214"), 
+    "Code" : "TO", 
+    "A3 Code" : "TGO", 
+    "N3 Code" : "768", 
+    "Name" : "TOGO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264215"), 
+    "Code" : "TL", 
+    "A3 Code" : "TKL", 
+    "N3 Code" : "772", 
+    "Name" : "TOKELAU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264216"), 
+    "Code" : "TN", 
+    "A3 Code" : "TON", 
+    "N3 Code" : "776", 
+    "Name" : "TONGA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264217"), 
+    "Code" : "TD", 
+    "A3 Code" : "TTO", 
+    "N3 Code" : "780", 
+    "Name" : "TRINIDAD AND TOBAGO"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264218"), 
+    "Code" : "TE", 
+    "Name" : "TROMELIN ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264219"), 
+    "Code" : "TS", 
+    "A3 Code" : "TUN", 
+    "N3 Code" : "788", 
+    "Name" : "TUNISIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421a"), 
+    "Code" : "TU", 
+    "A3 Code" : "TUR", 
+    "N3 Code" : "792", 
+    "Name" : "TURKEY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421b"), 
+    "Code" : "TX", 
+    "A3 Code" : "TKM", 
+    "N3 Code" : "795", 
+    "Name" : "TURKMENISTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421c"), 
+    "Code" : "TK", 
+    "A3 Code" : "TCA", 
+    "N3 Code" : "796", 
+    "Name" : "TURKS AND CAICOS ISLANDS"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421d"), 
+    "Code" : "TV", 
+    "A3 Code" : "TUV", 
+    "N3 Code" : "798", 
+    "Name" : "TUVALU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421e"), 
+    "Code" : "UG", 
+    "A3 Code" : "UGA", 
+    "N3 Code" : "800", 
+    "Name" : "UGANDA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426421f"), 
+    "Code" : "UP", 
+    "A3 Code" : "UKR", 
+    "N3 Code" : "804", 
+    "Name" : "UKRAINE"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264220"), 
+    "Code" : "AE", 
+    "A3 Code" : "ARE", 
+    "N3 Code" : "784", 
+    "Name" : "UNITED ARAB EMIRATES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264221"), 
+    "Code" : "UK", 
+    "A3 Code" : "GBR", 
+    "N3 Code" : "826", 
+    "Name" : "UNITED KINGDOM"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264222"), 
+    "Code" : "US", 
+    "A3 Code" : "USA", 
+    "N3 Code" : "840", 
+    "Name" : "UNITED STATES"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264223"), 
+    "Code" : "UY", 
+    "A3 Code" : "URY", 
+    "N3 Code" : "858", 
+    "Name" : "URUGUAY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264224"), 
+    "Code" : "UZ", 
+    "A3 Code" : "UZB", 
+    "N3 Code" : "860", 
+    "Name" : "UZBEKISTAN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264225"), 
+    "Code" : "NH", 
+    "A3 Code" : "VUT", 
+    "N3 Code" : "548", 
+    "Name" : "VANUATU"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264226"), 
+    "Code" : "VT", 
+    "A3 Code" : "VAT", 
+    "N3 Code" : "336", 
+    "Name" : "VATICAN CITY"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264227"), 
+    "Code" : "VE", 
+    "A3 Code" : "VEN", 
+    "N3 Code" : "862", 
+    "Name" : "VENEZUELA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264228"), 
+    "Code" : "VM", 
+    "A3 Code" : "VNM", 
+    "N3 Code" : "704", 
+    "Name" : "VIETNAM"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264229"), 
+    "Code" : "VI", 
+    "A3 Code" : "VGB", 
+    "N3 Code" : "092", 
+    "Name" : "VIRGIN ISLANDS, BRITISH"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422a"), 
+    "Code" : "VQ", 
+    "A3 Code" : "VIR", 
+    "N3 Code" : "850", 
+    "Name" : "VIRGIN ISLANDS, U.S."
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422b"), 
+    "Code" : "WQ", 
+    "Name" : "WAKE ISLAND"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422c"), 
+    "Code" : "WF", 
+    "A3 Code" : "WLF", 
+    "N3 Code" : "876", 
+    "Name" : "WALLIS AND FUTUNA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422d"), 
+    "Code" : "WE", 
+    "Name" : "WEST BANK"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422e"), 
+    "Code" : "WI", 
+    "A3 Code" : "ESH", 
+    "N3 Code" : "732", 
+    "Name" : "WESTERN SAHARA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d263946047426422f"), 
+    "Code" : "YM", 
+    "A3 Code" : "YEM", 
+    "N3 Code" : "887", 
+    "Name" : "YEMEN"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264230"), 
+    "Code" : "ZA", 
+    "A3 Code" : "ZMB", 
+    "N3 Code" : "894", 
+    "Name" : "ZAMBIA"
+},
+{ 
+    "_id" : ObjectId("5a296b1d2639460474264231"), 
+    "Code" : "ZI", 
+    "A3 Code" : "ZWE", 
+    "N3 Code" : "716", 
+    "Name" : "ZIMBABWE"
+}
+]

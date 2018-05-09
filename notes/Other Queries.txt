@@ -1,0 +1,27 @@
+/**
+ * Traverse enumeration.
+ */
+FOR vertex, edge, path
+	IN 1..10
+	INBOUND @root
+	GRAPH 'schema'
+	OPTIONS {"uniqueEdges" : "path"}
+	FILTER @branch IN path.edges[*].`branches`[**]
+	    && path.edges[*].`predicate` ANY IN [
+			"terms/:predicate:enum-of",
+			"terms/:predicate:category-of" ]
+	RETURN path
+
+/**
+ * Traverse enumeration.
+ */
+FOR vertex, edge, path
+	IN 1..10
+	INBOUND @root
+	GRAPH 'schema'
+	OPTIONS {"uniqueEdges" : "path"}
+	FILTER @branch IN path.edges[*].`branches`[**]
+	    && path.edges[*].`predicate` ANY IN [
+			"terms/:predicate:enum-of",
+			"terms/:predicate:category-of" ]
+	RETURN path

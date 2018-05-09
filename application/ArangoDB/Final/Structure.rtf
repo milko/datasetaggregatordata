@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16940\viewh23440\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Session
+\b0 :\
+\
+The session 
+\b _key
+\b0  is the cookie 
+\b sid
+\b0 .\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}
+\b uid
+\b0 \uc0\u8232 User ID. This to allow batch jobs to use sessions.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}
+\b created
+\b0 \uc0\u8232 The creation time stamp.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}
+\b expires
+\b0 \uc0\u8232 The expiration time stamp.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}
+\b data
+\b0 \uc0\u8232 The session data. It will be initialised to an empty object, will contain any data that should be held by the session.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+Handling services:\
+\
+In main.js use middleware to set environment, check permissions and log operations:\
+\
+module.context.use(\
+	(request, response, next) => \{\
+		\
+		//\
+		// Init error.\
+		//\
+		let error = null;\
+		\
+		//\
+		// Set environment and load info in request.\
+		//\
+		\
+		//\
+		// Check permissions.\
+		//\
+\
+		//\
+		// Perform requested service.\
+		//\
+		try\
+		\{\
+			next( error );\
+		\}\
+\
+		//\
+		// Log event.\
+		//\
+		finally\
+		\{\
+			//\
+			// Make any changes.\
+			//\
+		\}\
+		\
+	\}\
+);}
