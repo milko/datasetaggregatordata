@@ -3,12 +3,19 @@ XXX,descriptors/name,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usag
 XXX,descriptors/password,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Password,The password of the administrator user.,Provide a password for the user.,,,terms/:form:admin
 XXX,descriptors/email,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,E-mail,The e-mail address of the user.,Provide the e-mail address of the user.,This address will be used to communicate with the user.,,terms/:form:admin
 XXX,descriptors/language,terms/:form:admin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Language,Preferred language.,Select the preferred language of the user.,"User interface elements that are stored in different languages will be displayed in this language, if avaliable.",,terms/:form:admin
-XXX,descriptors/username,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:comp,,1,Code,User code.,The code used to log in.,,,terms/:form:signin
-XXX,descriptors/email,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,E-mail,User e-mail address.,The user’s e-mail address.,,,terms/:form:signin
+XXX,descriptors/username,terms/:form:signup,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,1,Code,User code.,The code used to log in.,"If omitted, it will automatically set to the user’s e-mail address.",,terms/:form:signup
+XXX,descriptors/name,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Name,User full name.,The user’s full name.,,,terms/:form:signup
+XXX,descriptors/email,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,E-mail,User e-mail address.,The user’s e-mail address.,,,terms/:form:signup
+XXX,descriptors/rank,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Rank,User rank.,The rank of the user.,,,terms/:form:signup
+XXX,descriptors/role,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Roles,User roles.,The roles of the user.,,,terms/:form:signup
+XXX,descriptors/group,terms/:form:signup,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,6,Group,User group.,The group to which the user belongs.,,,terms/:form:signup
+XXX,descriptors/username,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,1,Code,User code.,The code used to log in.,,,terms/:form:signin
+XXX,descriptors/password,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Password,User password.,The user access password.,,,terms/:form:signin
 XXX,descriptors/name,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,Name,User full name.,The user’s full name.,,,terms/:form:signin
-XXX,descriptors/language,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Language,User preferred language.,The preferred language of the user.,,,terms/:form:signin
-XXX,descriptors/rank,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,5,Rank,User rank.,The rank of the user.,,,terms/:form:signin
-XXX,descriptors/role,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,6,Roles,User roles.,The roles of the user.,,,terms/:form:signin
-XXX,descriptors/status,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,7,Status,User status.,The status of the user.,,,terms/:form:signin
+XXX,descriptors/email,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,E-mail,User e-mail address.,The user’s e-mail address.,,,terms/:form:signin
+XXX,descriptors/language,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Language,User preferred language.,The preferred language of the user.,,,terms/:form:signin
+XXX,descriptors/rank,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,6,Rank,User rank.,The rank of the user.,,,terms/:form:signin
+XXX,descriptors/role,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,7,Roles,User roles.,The roles of the user.,,,terms/:form:signin
+XXX,descriptors/group,terms/:form:signin,terms/:predicate:field-of,,,,,,:state:interface:field:out,,8,Group,User group.,The group to which the user belongs.,,,terms/:form:signin
 XXX,descriptors/username,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,1,Code,Provide your user code.,,,,terms/:form:login
 XXX,descriptors/password,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,Password,Provide your user password.,,,,terms/:form:login
