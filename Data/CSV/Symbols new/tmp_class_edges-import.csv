@@ -1,8 +1,8 @@
 _key,_from,_to,predicate,init,access,usage,branches.0,branches.1,branches.2
-XXX,terms/:class:edge,terms/:class:edge:attribute,terms/:predicate:class-of,,,,,terms/:class:edge:attribute,
-XXX,terms/:class:edge,terms/:class:edge:branch,terms/:predicate:class-of,,,,,,terms/:class:edge:branch
 XXX,descriptors/_from,terms/:class:edge,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,terms/:class:edge,terms/:class:edge:attribute,terms/:class:edge:branch
 XXX,descriptors/_to,terms/:class:edge,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,terms/:class:edge,terms/:class:edge:attribute,terms/:class:edge:branch
 XXX,descriptors/predicate,terms/:class:edge,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,terms/:class:edge,terms/:class:edge:attribute,terms/:class:edge:branch
-XXX,descriptors/attributes,terms/:class:edge:attribute,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,,terms/:class:edge:attribute,
-XXX,descriptors/branches,terms/:class:edge:branch,terms/:predicate:property-of,,,:state:usage:required,,,terms/:class:edge:branch
+XXX,terms/:class:edge,terms/:class:edge:attribute,terms/:predicate:class-of,,,,,terms/:class:edge:attribute,
+XXX,descriptors/attributes,terms/:class:edge,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,,terms/:class:edge:attribute,
+XXX,terms/:class:edge,terms/:class:edge:branch,terms/:predicate:class-of,,,,,,terms/:class:edge:branch
+XXX,descriptors/branches,terms/:class:edge,terms/:predicate:property-of,,:state:access:protected,:state:usage:required,,,terms/:class:edge:branch
