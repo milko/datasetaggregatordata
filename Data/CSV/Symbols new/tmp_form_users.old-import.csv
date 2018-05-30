@@ -37,14 +37,14 @@ XXX,terms/:type:form:full,terms/:kind:form:mixed,terms/:predicate:form-of,,,,,,,
 XXX,terms/:form:login,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:login
 XXX,descriptors/username,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,1,,,User code,User code or e-mail.,,,,,,,,,,,terms/:form:login
 XXX,descriptors/password,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,,,Password,,,,,,,,,,,,terms/:form:login
-XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
-XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
-XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
-XXX,terms/:form:groupin,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/nid,terms/:form:groupin,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,1,,,Department,Provide a namespace for the group code.,This value is used to allow the same group type to belong to several departments.,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/lid,terms/:form:groupin,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,2,,,Code,"Provide a unique code, within the same department, to the group.",This value is used to uniquely identify a group within a department.,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/label,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,3,,,Name,Provide the group name or label.,This value will be used as a label or header when displaying groups.,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/definition,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,4,,,Functions,Provide the group function and scope.,This value will be visible in popup areas.,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/description,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,5,,,Description,Provide any other relevant information not included in the previous two fields.,,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/role,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,6,,,User roles,Provide the default user roles for the current group.,Group user roles provide a template when creating new users.,,,,,,,,,,terms/:form:groupin
-XXX,descriptors/note,terms/:form:groupin,terms/:predicate:field-of,,,,,:state:usage:optional,:state:interface:field:in,,7,,,Notes,You can use this field to add notes.,,,,,,,,,,,terms/:form:groupin
+XXX,terms/:kind:form:input,terms/:kind:form,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,
+XXX,terms/:kind:form:instance,terms/:kind:form:input,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,
+XXX,terms/:type:form:full,terms/:kind:form:instance,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,
+XXX,,terms/:type:form:full,terms/:predicate:form-of,,,,,,,,,,,,,,,,,,,,,,,
+XXX,descriptors/nid,,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,1,,,Department,Provide a namespace for the group code.,This value is used to allow the same group type to belong to several departments.,,,,,,,,,,
+XXX,descriptors/lid,,terms/:predicate:field-of,,,,:state:access:protected,:state:usage:required,:state:interface:field:in,,2,,,Code,"Provide a unique code, within the same department, to the group.",This value is used to uniquely identify a group within a department.,,,,,,,,,,
+XXX,descriptors/label,,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,3,,,Name,Provide the group name or label.,This value will be used as a label or header when displaying groups.,,,,,,,,,,
+XXX,descriptors/definition,,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,4,,,Functions,Provide the group function and scope.,This value will be visible in popup areas.,,,,,,,,,,
+XXX,descriptors/description,,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,5,,,Description,Provide any other relevant information not included in the previous two fields.,,,,,,,,,,,
+XXX,descriptors/role,,terms/:predicate:field-of,,,,,:state:usage:suggested,:state:interface:field:in,,6,,,User roles,Provide the default user roles for the current group.,Group user roles provide a template when creating new users.,,,,,,,,,,
+XXX,descriptors/note,,terms/:predicate:field-of,,,,,:state:usage:optional,:state:interface:field:in,,7,,,Notes,You can use this field to add notes.,,,,,,,,,,,
