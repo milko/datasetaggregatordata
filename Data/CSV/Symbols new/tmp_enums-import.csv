@@ -377,6 +377,7 @@ XXX,terms/:collection:users,terms/:domain:auth,terms/:predicate:category-of,,1,t
 XXX,terms/:form:admin,terms/:collection:users,terms/:predicate:enum-of,,1,terms/:enum:form
 XXX,terms/:form:signup,terms/:collection:users,terms/:predicate:enum-of,,2,terms/:enum:form
 XXX,terms/:form:signin,terms/:collection:users,terms/:predicate:enum-of,,3,terms/:enum:form
+XXX,terms/:form:credentials,terms/:collection:users,terms/:predicate:enum-of,,4,terms/:enum:form
 XXX,terms/:kind:image:flag,terms/:kind:image,terms/:predicate:enum-of,,1,terms/:kind:image
 XXX,terms/:type:image:thumb,terms/:type:image,terms/:predicate:enum-of,,1,terms/:type:image
 XXX,terms/:type:image:tile,terms/:type:image,terms/:predicate:enum-of,,2,terms/:type:image
