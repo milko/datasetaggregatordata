@@ -62,9 +62,10 @@ XXX,terms/:instance:link,terms/:type:instance:edge,terms/:predicate:enum-of,,1,t
 XXX,terms/:instance:link:attribute,terms/:instance:link,terms/:predicate:enum-of,,2,terms/:enum:instance
 XXX,terms/:instance:link:branch,terms/:instance:link,terms/:predicate:enum-of,,3,terms/:enum:instance
 XXX,terms/:instance:user,terms/:type:instance:user,terms/:predicate:enum-of,,1,terms/:enum:instance
-XXX,terms/:instance:group,terms/:type:instance:user,terms/:predicate:enum-of,,2,terms/:enum:instance
-XXX,terms/:instance:session,terms/:type:instance:user,terms/:predicate:enum-of,,3,terms/:enum:instance
-XXX,terms/:instance:log,terms/:type:instance:user,terms/:predicate:enum-of,,4,terms/:enum:instance
+XXX,terms/:instance:manager,terms/:type:instance:user,terms/:predicate:enum-of,,2,terms/:enum:instance
+XXX,terms/:instance:group,terms/:type:instance:user,terms/:predicate:enum-of,,3,terms/:enum:instance
+XXX,terms/:instance:session,terms/:type:instance:user,terms/:predicate:enum-of,,4,terms/:enum:instance
+XXX,terms/:instance:log,terms/:type:instance:user,terms/:predicate:enum-of,,5,terms/:enum:instance
 XXX,terms/:instance:message,terms/:type:instance:system,terms/:predicate:enum-of,,1,terms/:enum:instance
 XXX,terms/:instance:setting,terms/:type:instance:system,terms/:predicate:enum-of,,2,terms/:enum:instance
 XXX,terms/:instance:study,terms/:type:instance:data,terms/:predicate:enum-of,,3,terms/:enum:instance
