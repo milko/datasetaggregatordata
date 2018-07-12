@@ -10,11 +10,10 @@ XXX,descriptors/language,terms/:form:signup,terms/:predicate:field-of,,,,,,:stat
 XXX,descriptors/rank,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Rank,User rank.,The rank of the user.,,,terms/:form:signup
 XXX,descriptors/role,terms/:form:signup,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,6,Roles,User roles.,The roles of the user.,,,terms/:form:signup
 XXX,descriptors/group,terms/:form:signup,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,7,Group,User group.,The group to which the user belongs.,May be omitted.,,terms/:form:signup
-XXX,descriptors/username,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,1,Code,User code.,The code used to log in.,,,terms/:form:signin
-XXX,descriptors/password,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Password,User password.,The user access password.,,,terms/:form:signin
-XXX,descriptors/name,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,Name,User full name.,The user’s full name.,,,terms/:form:signin
-XXX,descriptors/email,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,E-mail,User e-mail address.,The user’s e-mail address.,,,terms/:form:signin
-XXX,descriptors/language,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Language,User preferred language.,The preferred language of the user.,,,terms/:form:signin
+XXX,descriptors/password,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,,Password,User password.,The user access password.,,,terms/:form:signin
+XXX,descriptors/name,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,,Name,User full name.,The user’s full name.,,,terms/:form:signin
+XXX,descriptors/email,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,,E-mail,User e-mail address.,The user’s e-mail address.,,,terms/:form:signin
+XXX,descriptors/language,terms/:form:signin,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,,Language,User preferred language.,The preferred language of the user.,,,terms/:form:signin
 XXX,descriptors/username,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,1,Code,Provide your user code.,,,,terms/:form:login
 XXX,descriptors/password,terms/:form:login,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in,,2,Password,Provide your user password.,,,,terms/:form:login
 XXX,descriptors/password,terms/:form:credentials,terms/:predicate:field-of,,,,,,:state:interface:field:in,,1,Password,"Set new password, or leave empty to keep old one.","Leave the field empty if you do not want to change your password, set a new password to change it.",,,terms/:form:credentials
