@@ -520,7 +520,7 @@ for( var collection in documents ) {
  * MILKO - Removed this section because the instance field in terms is used by
  *		   data types to identify the instance to which the value must belong.
  */
-/**
+/*
 //
 // Init bulk operations.
 //
