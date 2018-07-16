@@ -1,0 +1,24 @@
+_key,_from,_to,predicate,rank,role.0,init,enable,usage,interface,level,order,label.ISO:639:3:eng,definition.ISO:639:3:eng,description.ISO:639:3:eng,note.ISO:639:3:eng,example.ISO:639:3:eng,branch
+XXX,descriptors/nid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,1,Namespace,Study namespace.,Reference to a term which represents the study namespace.,,,terms/:form:SMART
+XXX,descriptors/lid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Local identifier,Study local identifier.,Identifier or code that uniquely disambiguates the study within its namespace.,,,terms/:form:SMART
+XXX,descriptors/STD_agency,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,Agency,Name of agency(s) or institution(s) that produced the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_geo_locations,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Locations,Locations touched in the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_start,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Start date,Start date of data collecton.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_end,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,6,End date,End date of data collection.,,,,terms/:form:SMART
+XXX,descriptors/label,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,7,Title,Dataset title or name.,,,,terms/:form:SMART
+XXX,descriptors/definition,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,8,Definition,"Dataset definition, objectives and methods.",,,,terms/:form:SMART
+XXX,descriptors/description,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,9,Description,Dataset general description.,,,,terms/:form:SMART
+XXX,descriptors/note,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,10,Notes,Dataset notes and comments.,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCFLAGS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,11,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSEXRAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,12,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCAGERAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,13,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPWT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,14,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPHT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,15,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDMUAC,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,16,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSTDEV,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,17,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSKEW,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,18,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCKURT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,19,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCPOISS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,20,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSCORE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,21,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPMETH,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,22,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPSIZE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,23,,,,,,terms/:form:SMART

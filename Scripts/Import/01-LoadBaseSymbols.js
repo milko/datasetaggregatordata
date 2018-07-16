@@ -350,7 +350,7 @@ function AddSchema( theDocument, theBranch, theCollection )
 var bulk_count, bulk_docs;
 var collections = [
 	"tmp_terms", "tmp_descriptors", "tmp_enums",
-	"tmp_form_users", "tmp_form_terms", "tmp_form_descriptors",
+	"tmp_form_users", "tmp_form_study",
 	"tmp_class_terms", "tmp_class_descriptors", "tmp_class_edges"
 ];
 var documents = {
@@ -362,8 +362,7 @@ var schemas = {
 };
 var edges = {
 	"tmp_form_users" : "schemas",
-	"tmp_form_terms" : "schemas",
-	"tmp_form_descriptors" : "schemas",
+	"tmp_form_study" : "schemas",
 	"tmp_class_terms" : "schemas",
 	"tmp_class_descriptors" : "schemas",
 	"tmp_class_edges" : "schemas"
