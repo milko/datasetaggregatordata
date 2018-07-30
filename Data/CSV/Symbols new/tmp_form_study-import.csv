@@ -1,24 +1,83 @@
 _key,_from,_to,predicate,rank,role.0,init,enable,usage,interface,level,order,label.ISO:639:3:eng,definition.ISO:639:3:eng,description.ISO:639:3:eng,note.ISO:639:3:eng,example.ISO:639:3:eng,branch
-XXX,descriptors/nid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,1,Namespace,Study namespace.,Reference to a term which represents the study namespace.,,,terms/:form:SMART
-XXX,descriptors/lid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Local identifier,Study local identifier.,Identifier or code that uniquely disambiguates the study within its namespace.,,,terms/:form:SMART
-XXX,descriptors/STD_agency,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,Agency,Name of agency(s) or institution(s) that produced the dataset.,,,,terms/:form:SMART
-XXX,descriptors/STD_geo_locations,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Locations,Locations touched in the dataset.,,,,terms/:form:SMART
-XXX,descriptors/STD_date_start,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,5,Start date,Start date of data collecton.,,,,terms/:form:SMART
-XXX,descriptors/STD_date_end,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,6,End date,End date of data collection.,,,,terms/:form:SMART
-XXX,descriptors/label,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,7,Title,Dataset title or name.,,,,terms/:form:SMART
-XXX,descriptors/definition,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,8,Definition,"Dataset definition, objectives and methods.",,,,terms/:form:SMART
-XXX,descriptors/description,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,9,Description,Dataset general description.,,,,terms/:form:SMART
-XXX,descriptors/note,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,10,Notes,Dataset notes and comments.,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCFLAGS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,11,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCSEXRAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,12,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCAGERAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,13,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCDPWT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,14,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCDPHT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,15,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCDMUAC,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,16,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCSTDEV,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,17,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCSKEW,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,18,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCKURT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,19,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCPOISS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,20,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_PCSCORE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,21,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_SAMPMETH,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,22,,,,,,terms/:form:SMART
-XXX,descriptors/STD_stat_SAMPSIZE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,23,,,,,,terms/:form:SMART
+XXX,descriptors/nid,terms/:form:study,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,1,Namespace,,,,,terms/:form:study
+XXX,descriptors/lid,terms/:form:study,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Local identifier,,,,,terms/:form:study
+XXX,descriptors/STD_agency,terms/:form:study,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,3,Agency,,,,,terms/:form:study
+XXX,descriptors/STD_geo_locations,terms/:form:study,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,4,Locations,,,,,terms/:form:study
+XXX,descriptors/STD_date_start,terms/:form:study,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,5,Start date,,,,,terms/:form:study
+XXX,descriptors/STD_date_end,terms/:form:study,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,6,End date,,,,,terms/:form:study
+XXX,descriptors/label,terms/:form:study,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,7,Title,,,,,terms/:form:study
+XXX,descriptors/definition,terms/:form:study,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,8,Definition,,,,,terms/:form:study
+XXX,descriptors/description,terms/:form:study,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,9,Description,,,,,terms/:form:study
+XXX,descriptors/note,terms/:form:study,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,10,Notes,,,,,terms/:form:study
+XXX,descriptors/_id,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:study:update
+XXX,descriptors/_key,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:study:update
+XXX,descriptors/_rev,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:study:update
+XXX,descriptors/doc_desc,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:hidden,,,,,,,,terms/:form:study:update
+XXX,descriptors/cstamp,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:out,,1,,,,,,terms/:form:study:update
+XXX,descriptors/mstamp,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:out,,2,,,,,,terms/:form:study:update
+XXX,descriptors/nid,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,3,Namespace,,,,,terms/:form:study:update
+XXX,descriptors/lid,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,4,Local identifier,,,,,terms/:form:study:update
+XXX,descriptors/gid,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,5,Global identifier,,,,,terms/:form:study:update
+XXX,descriptors/STD_agency,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,6,Agency,,,,,terms/:form:study:update
+XXX,descriptors/STD_geo_locations,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,7,Locations,,,,,terms/:form:study:update
+XXX,descriptors/STD_date_start,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,8,Start date,,,,,terms/:form:study:update
+XXX,descriptors/STD_date_end,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,9,End date,,,,,terms/:form:study:update
+XXX,descriptors/label,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,10,Title,,,,,terms/:form:study:update
+XXX,descriptors/definition,terms/:form:study:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,11,Definition,,,,,terms/:form:study:update
+XXX,descriptors/description,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,12,Description,,,,,terms/:form:study:update
+XXX,descriptors/note,terms/:form:study:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,13,Notes,,,,,terms/:form:study:update
+XXX,descriptors/nid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,1,Study,Study reference.,Reference to the study to which the SMART dataset belongs.,This field is both the study reference and the identifier namespace.,,terms/:form:SMART
+XXX,descriptors/lid,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,2,Local identifier,Dataset local identifier.,Identifier or code that uniquely disambiguates the study within its namespace.,,,terms/:form:SMART
+XXX,descriptors/annex-type,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,3,,,,,,terms/:form:SMART
+XXX,descriptors/STD_agency,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,4,Agency,Name of agency(s) or institution(s) that produced the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_geo_locations,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,5,Locations,Locations touched in the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_start,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,6,Start date,Start date of data collecton.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_end,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,7,End date,End date of data collection.,,,,terms/:form:SMART
+XXX,descriptors/label,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,8,Title,Dataset title or name.,,,,terms/:form:SMART
+XXX,descriptors/definition,terms/:form:SMART,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,9,Definition,"Dataset definition, objectives and methods.",,,,terms/:form:SMART
+XXX,descriptors/description,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,10,Description,Dataset general description.,,,,terms/:form:SMART
+XXX,descriptors/note,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,11,Notes,Dataset notes and comments.,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCFLAGS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,12,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSEXRAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,13,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCAGERAT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,14,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPWT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,15,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPHT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,16,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDMUAC,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,17,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSTDEV,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,18,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSKEW,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,19,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCKURT,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,20,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCPOISS,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,21,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSCORE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,22,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPMETH,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,23,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPSIZE,terms/:form:SMART,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,24,,,,,,terms/:form:SMART
+XXX,descriptors/_id,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:SMART
+XXX,descriptors/_key,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:SMART
+XXX,descriptors/_rev,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:hidden,,,,,,,,terms/:form:SMART
+XXX,descriptors/doc_desc,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:hidden,,,,,,,,terms/:form:SMART
+XXX,descriptors/cstamp,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:out,,1,,,,,,terms/:form:SMART
+XXX,descriptors/mstamp,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:out,,2,,,,,,terms/:form:SMART
+XXX,descriptors/nid,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,3,,Study reference.,Reference to the study to which the SMART dataset belongs.,This field is both the study reference and the identifier namespace.,,terms/:form:SMART
+XXX,descriptors/lid,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,4,,Dataset local identifier.,Identifier or code that uniquely disambiguates the study within its namespace.,,,terms/:form:SMART
+XXX,descriptors/gid,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,5,,Global identifier,,,,terms/:form:SMART
+XXX,descriptors/annex-type,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:out,,6,,,,,,terms/:form:SMART
+XXX,descriptors/STD_agency,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,7,,Name of agency(s) or institution(s) that produced the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_geo_locations,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,8,,Locations touched in the dataset.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_start,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,9,,Start date of data collecton.,,,,terms/:form:SMART
+XXX,descriptors/STD_date_end,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,10,,End date of data collection.,,,,terms/:form:SMART
+XXX,descriptors/label,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,11,,Dataset title or name.,,,,terms/:form:SMART
+XXX,descriptors/definition,terms/:form:SMART:update,terms/:predicate:field-of,,,,,:state:usage:required,:state:interface:field:in:out,,12,,"Dataset definition, objectives and methods.",,,,terms/:form:SMART
+XXX,descriptors/description,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,13,,Dataset general description.,,,,terms/:form:SMART
+XXX,descriptors/note,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,14,,Dataset notes and comments.,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCFLAGS,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,15,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSEXRAT,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,16,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCAGERAT,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,17,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPWT,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,18,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDPHT,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,19,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCDMUAC,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,20,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSTDEV,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,21,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSKEW,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,22,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCKURT,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,23,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCPOISS,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,24,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_PCSCORE,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,25,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPMETH,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,26,,,,,,terms/:form:SMART
+XXX,descriptors/STD_stat_SAMPSIZE,terms/:form:SMART:update,terms/:predicate:field-of,,,,,,:state:interface:field:in:out,,27,,,,,,terms/:form:SMART
